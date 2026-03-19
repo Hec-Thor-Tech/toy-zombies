@@ -1,0 +1,18 @@
+site_name: Toys Zombies
+site_description: La wiki oficial, el lore y la guía de supervivencia.
+
+theme:
+  name: material
+  language: es
+  # Configuración de colores (Tema oscuro por defecto)
+  palette:
+    scheme: slate
+    primary: black
+    accent: red
+
+# Barra de navegación (Menú superior/lateral)
+nav:
+  - Inicio: index.md
+  - El Lore: lore.md
+  - Juguetes Zombis: bestiario.md
+  - Zonas y Mapas: mapas.md
