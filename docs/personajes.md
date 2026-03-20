@@ -1,7 +1,7 @@
 <div style="float: right; width: 300px; border: 1px solid #333; background-color: #1e1e1e; padding: 15px; margin-left: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);">
   <h2 style="text-align: center; margin-top: 0; color: #ff5252;">John</h2>
   
-  <img src="img/john.png" alt="Imagen de John" style="width: 100%; border-radius: 4px; border: 1px solid #000;">
+  <img src="../img/john.png" alt="Imagen de John" style="width: 100%; border-radius: 4px; border: 1px solid #000;">
   
   <hr style="border-color: #444;">
   
