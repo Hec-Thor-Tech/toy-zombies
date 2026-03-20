@@ -1,20 +1,24 @@
 @echo off
-title Actualizando Toys Zombies Wiki
+title Actualizando Toy Zombies Wiki
 color 0c
 
 echo ===================================================
-echo     Iniciando protocolo de actualizacion...
-echo     Subiendo archivos de Toys Zombies a internet
+echo     1. Construyendo y subiendo la pagina web...
 echo ===================================================
-echo.
-
-:: Este comando le dice a MkDocs que construya la pagina y la suba a GitHub
 mkdocs gh-deploy --force
 
 echo.
 echo ===================================================
-echo   ¡Actualizacion completada con exito!
-echo   Los cambios se veran reflejados en un par de minutos.
+echo     2. Guardando textos en el repositorio...
+echo ===================================================
+git add .
+git commit -m "Actualizacion de la wiki"
+git push origin main
+
+echo.
+echo ===================================================
+echo   ¡Todo actualizado y guardado con exito!
+echo   Recuerda presionar Ctrl + F5 en tu navegador.
 echo ===================================================
 echo.
 pause
