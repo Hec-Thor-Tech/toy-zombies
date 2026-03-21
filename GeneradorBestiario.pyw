@@ -14,32 +14,26 @@ def guardar_zombie():
         messagebox.showwarning("Faltan datos", "El nombre y el archivo de imagen son obligatorios.")
         return
 
-    # Se asegura de que la imagen termine en .webp o .png
     if not imagen.endswith((".webp", ".png", ".jpg", ".gif")):
         imagen += ".webp"
 
     html_template = f"""
 <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
   
-  <div style="flex: 1; min-width: 300px; background-color: #1e1e1e; padding: 10px; border-radius: 8px; text-align: center; border: 1px solid #333;">
+  <div style="flex: 1; min-width: 300px; background-color: rgba(30, 30, 30, 0.6); padding: 10px; border-radius: 8px; text-align: center; border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(8px);">
     <img src="../img/{imagen}" alt="{nombre}" style="width: 100%; border-radius: 4px;">
-    <p style="color: #888; font-size: 0.85em; margin-top: 10px; margin-bottom: 0;">Add a caption</p>
   </div>
 
-  <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+  <div style="flex: 1; min-width: 300px; background-color: rgba(30, 30, 30, 0.6); padding: 20px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); backdrop-filter: blur(8px);">
+    <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     
-    <div style="border: 1px solid #444; border-radius: 4px;">
-      <div style="padding: 15px; border-bottom: 1px solid #444;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Name:</b> {nombre}</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Parents:</b> {parents}</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Species:</b> {especie}</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Powers:</b> {poderes}</p>
-        <p style="margin-bottom: 0; color: #fff;"><b>Occupation:</b> {ocupacion}</p>
-      </div>
-      <div style="padding: 15px; background-color: #2a2a2a; border-radius: 0 0 4px 4px;">
-        <p style="margin: 0; color: #777; font-size: 0.9em;">Start typing...</p>
+    <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
+      <div style="padding: 15px;">
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> {nombre}</p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> {parents}</p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> {especie}</p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> {poderes}</p>
+        <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> {ocupacion}</p>
       </div>
     </div>
   </div>
@@ -52,13 +46,9 @@ def guardar_zombie():
     ruta_archivo = os.path.join("docs", "bestiario.md")
     
     try:
-        # Modo "a" (append) para agregar al final del archivo sin borrar lo anterior
         with open(ruta_archivo, "a", encoding="utf-8") as file:
             file.write(html_template)
-            
         messagebox.showinfo("¡Éxito!", f"¡{nombre} se ha agregado al bestiario!")
-        
-        # Limpiar los campos para el siguiente zombi
         entry_nombre.delete(0, tk.END)
         entry_parents.delete(0, tk.END)
         entry_especie.delete(0, tk.END)
@@ -75,7 +65,6 @@ root.title("Terminal de Datos - Toy Zombies")
 root.geometry("400x480")
 root.configure(bg="#121212")
 
-# Estilos de fuente y color
 fuente_label = ("Consolas", 10, "bold")
 bg_color = "#121212"
 fg_color = "#ff5252"
@@ -84,7 +73,6 @@ entry_fg = "#ffffff"
 
 tk.Label(root, text="AÑADIR NUEVA ENTIDAD", font=("Consolas", 14, "bold"), bg=bg_color, fg=fg_color).pack(pady=15)
 
-# Función rápida para crear campos
 def crear_campo(texto):
     tk.Label(root, text=texto, bg=bg_color, fg="#aaaaaa", font=fuente_label).pack(anchor="w", padx=40)
     entry = tk.Entry(root, bg=entry_bg, fg=entry_fg, insertbackground="white", width=40, relief="solid")
@@ -98,7 +86,6 @@ entry_poderes = crear_campo("Poderes / Habilidades:")
 entry_ocupacion = crear_campo("Ocupación:")
 entry_imagen = crear_campo("Nombre del archivo (ej: bear.webp):")
 
-# Botón Guardar
 btn_guardar = tk.Button(root, text="INYECTAR EN BESTIARIO.MD", bg="#440000", fg="#ffffff", 
                         font=("Consolas", 10, "bold"), relief="flat", cursor="hand2", command=guardar_zombie)
 btn_guardar.pack(pady=25, ipadx=10, ipady=5)
