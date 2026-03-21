@@ -17,3 +17,6 @@ nav:
   - Toy Zombies: bestiario.md
   - Animalls Shopping: mapas.md
   - Personajes: personajes.md
+  
+  extra_css:
+  - stylesheets/extra.css

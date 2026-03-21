@@ -1,0 +1,14 @@
+body {
+  background-image: url('../img/fondo1.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* ¡Esta es la magia que lo hace semi-estático! */
+  background-repeat: no-repeat;
+  background-color: #121212; /* Color de respaldo oscuro por si la imagen tarda en cargar */
+}
+
+/* Esto le da un fondo semi-transparente oscuro al menú lateral para que resalte del fondo */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+}
