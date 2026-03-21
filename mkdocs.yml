@@ -4,6 +4,8 @@ site_description: La wiki oficial, el lore y la guía de supervivencia.
 theme:
   name: material
   language: es
+  logo: img/logo.png
+  favicon: img/icono.webp
   # Configuración de colores (Tema oscuro por defecto)
   palette:
     scheme: slate
