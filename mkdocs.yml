@@ -14,7 +14,7 @@ theme:
 nav:
   - Inicio: index.md
   - Historia: lore.md
-  - Toy Zombis: bestiario.md
+  - Toy Zombies: bestiario.md
   - Animalls Shopping: mapas.md
   - Personajes: personajes.md
 
