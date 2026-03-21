@@ -6,8 +6,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -36,8 +35,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -65,8 +63,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -94,8 +91,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -123,8 +119,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -152,8 +147,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -181,8 +175,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -210,8 +203,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -239,8 +231,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -268,8 +259,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -297,8 +287,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -326,8 +315,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -355,8 +343,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
@@ -384,8 +371,7 @@
   </div>
 
   <div style="flex: 1; min-width: 300px; background-color: #212121; padding: 20px; border-radius: 8px; border: 1px solid #333;">
-    <h3 style="text-align: center; margin-top: 0; color: #ffffff; font-weight: bold; margin-bottom: 5px;">Profile</h3>
-    <p style="text-align: center; color: #aaaaaa; font-size: 0.9em; margin-top: 0; margin-bottom: 20px;">2 cards</p>
+    
     
     <div style="border: 1px solid #444; border-radius: 4px;">
       <div style="padding: 15px; border-bottom: 1px solid #444;">
