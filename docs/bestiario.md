@@ -6,8 +6,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mono</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mono</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Mono</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Grito de alerta</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Baterista principal / Líder /<br>El más Toy Zombie</p>
@@ -25,8 +24,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Plushnee</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Plushnee</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Conejo</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Es muy rápido</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> </p>
@@ -44,8 +42,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Frog</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Frog</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Sapo</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Omnisciencia (mejor dicho puede ver lo que su ojo independiente ve)</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Trompetista / Invocador lejano</p>
@@ -63,8 +60,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Toplush</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Toplush</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Topo</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Super velocidad en ventilaciones o lugares cerrados</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Super velocidad en ventilaciones o lugares cerrados</p>
@@ -82,8 +78,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> BoBiGo</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> BoBiGo</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Elefante / Oso hormiguero / posiblemente un perro?</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Super audición, puede escuchar cuando corres cerca de él</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Presentador de bienvenida / Policía / Observador lejano?</p>
@@ -101,8 +96,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Pulp</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Pulp</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Pulpo</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Invocadora cercana / CARAJO SON MUCHISIMOS MINI PULP</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Camarera principal (lava los platos y limpia las mesas)</p>
@@ -121,8 +115,7 @@
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
         <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Spiderplush</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Tarántula</p>
+                <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Tarántula</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Es veloz cuando corre por los techos</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Camarera secundaria (sirve los platos)</p>
       </div>
@@ -139,8 +132,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mosci</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mosci</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Mosca</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Se lanza hacia el jugador a gran velocidad.</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Lleva el menú lol</p>
@@ -158,8 +150,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mannequin</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mannequin</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Maniquí de madera</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Enciende tu linterna, ataca desde arriba</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> </p>
@@ -177,8 +168,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mike the Cat</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Mike the Cat</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Gato</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Se lanza hacia el jugador, corre muy rápido</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> </p>
@@ -196,8 +186,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> MouseMask</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> MouseMask</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Ratón</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Cuando se quita la máscara estás acabado</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Vendedor de decoraciones caras</p>
@@ -215,8 +204,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Lionmion</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Lionmion</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> León</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Cuando está despierto corre hacia tí a toda velocidad</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Informador </p>
@@ -234,8 +222,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Bear</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Bear</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Oso</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> No deja de seguirte</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> Peluche gigante para niños</p>
@@ -253,8 +240,7 @@
     <h3 style="text-align: center; margin-top: 0; color: #ff5252; font-weight: bold; margin-bottom: 15px;">Archivo de Entidad</h3>
     <div style="border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 4px; background-color: rgba(0, 0, 0, 0.4);">
       <div style="padding: 15px;">
-        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Snakeplush</p>
-        <p style="margin-bottom: 12px; color: #fff;"><b>Padres:</b> </p>
+        <p style="margin-bottom: 12px; color: #fff;"><b>Nombre:</b> Snakeplush</p>        
         <p style="margin-bottom: 12px; color: #fff;"><b>Especie:</b> Titanoboa</p>
         <p style="margin-bottom: 12px; color: #fff;"><b>Poderes:</b> Se lanza en circulos hata llegar a su objetivo</p>
         <p style="margin-bottom: 0; color: #fff;"><b>Ocupación:</b> </p>
