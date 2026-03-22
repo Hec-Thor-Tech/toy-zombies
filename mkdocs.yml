@@ -25,6 +25,8 @@ nav:
   - Mecánicas: mecanicas.md
   - Animalls Shopping: mapas.md
   - Personajes: personajes.md
+  - Agradecimientos Especiales: gracias.md
+  - Actualizaciones: updates.md
 
 extra_css:
   - stylesheets/extra.css
