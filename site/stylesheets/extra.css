@@ -6,7 +6,7 @@ body, .md-content {
     linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)) !important;
   background-size: 100% 4px, 3px 100% !important;
   font-family: "Consolas", "Courier New", monospace !important;
-  color: #e0e0e0 !important;
+  color: #e0e0e0 !important; /* Texto general claro como en la captura */
 }
 
 /* BARRA SUPERIOR E INFERIOR */
@@ -15,7 +15,27 @@ body, .md-content {
   border-bottom: 2px solid #ff003c;
 }
 
-/* PANELES DE ENTIDAD (ESTILO TERMINAL) */
+/* EFECTO ROJO ALERTA PARA LAS NEGRITAS EN MARKDOWN */
+.md-content b, 
+.md-content strong {
+  color: #ff003c !important;
+  font-weight: normal; /* Mantiene el mismo grosor que el texto base, como en tu imagen */
+  text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
+}
+
+/* TÍTULOS EN MARKDOWN */
+.md-content h1, .md-content h2, .md-content h3 {
+  color: #ff003c !important; 
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  text-shadow: 0 0 5px #ff003c;
+  border-bottom: 1px dashed #ff003c; 
+  padding-bottom: 10px; 
+}
+
+/* --------------------------------------------------- */
+/* PANELES DE ENTIDAD (Si decides usarlos con HTML)    */
+/* --------------------------------------------------- */
 .cyber-container {
   display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;
 }
@@ -25,7 +45,6 @@ body, .md-content {
   flex: 1; min-width: 300px; background: rgba(0, 20, 40, 0.6);
   padding: 15px; border: 1px solid #00f0ff;
   box-shadow: 0 0 10px rgba(0, 240, 255, 0.2) inset;
-  /* Esquina inferior derecha recortada (Efecto geométrico) */
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
   position: relative;
 }
@@ -40,19 +59,23 @@ body, .md-content {
   flex: 1; min-width: 300px; background: rgba(40, 5, 5, 0.6);
   padding: 20px; border: 1px solid #ff003c;
   box-shadow: 0 0 15px rgba(255, 0, 60, 0.2) inset;
-  /* Esquina superior derecha recortada */
   clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%);
   position: relative;
 }
+
 .cyber-title {
   color: #ff003c !important; text-transform: uppercase;
   letter-spacing: 2px; text-shadow: 0 0 5px #ff003c;
   border-bottom: 1px dashed #ff003c; padding-bottom: 10px; margin-top: 0 !important;
 }
+
 .cyber-text {
-  color: #00f0ff; font-size: 0.95em; margin-bottom: 12px; line-height: 1.5;
+  color: #e0e0e0; font-size: 0.95em; margin-bottom: 12px; line-height: 1.5;
 }
-.cyber-text b {
-  color: #ffffff; text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+
+.cyber-text b, .cyber-text strong {
+  color: #ff003c !important; 
+  text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
 }
+
 .cyber-hr { border-color: #ff003c; opacity: 0.3; margin: 40px 0; }
