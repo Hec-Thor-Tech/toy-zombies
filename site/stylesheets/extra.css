@@ -1,12 +1,30 @@
-/* CONVERTIR LA PÁGINA EN UNA TERMINAL CRT */
-body, .md-content {
+/* CONVERTIR LA PÁGINA EN UNA TERMINAL CRT CON FONDO ESTÁTICO */
+body {
   background-color: #050505 !important;
+  /* Capas de fondo separadas por comas (de arriba hacia abajo) */
   background-image: 
-    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
-    linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)) !important;
-  background-size: 100% 4px, 3px 100% !important;
+    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), /* 1. Scanlines Horizontales */
+    linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)), /* 2. Scanlines Verticales */
+    linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0.7)), /* 3. Filtro oscuro para poder leer los textos */
+    url('../img/fondo1.webp') !important; /* 4. Tu imagen de fondo en la capa más profunda */
+    
+  /* Ajuste de tamaños para cada capa */
+  background-size: 100% 4px, 3px 100%, cover, cover !important;
+  
+  /* ESTO ES LO QUE LO HACE ESTÁTICO AL HACER SCROLL */
+  background-attachment: fixed !important; 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  
   font-family: "Consolas", "Courier New", monospace !important;
-  color: #e0e0e0 !important; /* Texto general claro como en la captura */
+  color: #e0e0e0 !important;
+}
+
+/* Dejamos el panel principal transparente para que el fondo general se luzca */
+.md-content {
+  background: transparent !important;
+  font-family: "Consolas", "Courier New", monospace !important;
+  color: #e0e0e0 !important;
 }
 
 /* BARRA SUPERIOR E INFERIOR */

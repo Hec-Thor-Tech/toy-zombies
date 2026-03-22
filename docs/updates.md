@@ -10,20 +10,20 @@ Aquí veremos las actualizaciones que fueron posible por el feedback de la gente
 
 Tras ver algunos vídeos y recibir muchos comentarios, decidí que sería buena idea realizar algunas mejoras en esta versión (v1.1.0). Estoy bastante satisfecho con lo que aporta esta actualización al juego; mejora la experiencia general y facilita la exploración.
 
-**This update includes:**
+**Esta actualización incluye:**
 
-- Marking of specific areas
+- Marcado de áreas específicas.
 
-- Improved explanations of some tips
+- Explicaciones mejoradas de algunos consejos.
 
-- Hour 8 & 9 memory leak fixed
+- Se corrigió el Memory leak de las horas 8 y 9.
 
-- Pre-rendered cinematics lowered to 480p for low-end PCs (though the HD cinematics remain in the game files)
+- Las cinemáticas prerrenderizadas se redujeron a 480p para PC de gama baja (aunque las cinemáticas en HD permanecen en los archivos del juego).
 
-- Some navmesh errors fixed
+- Se corrigieron algunos errores de la malla de navegación.
 
-- Prototype missing textures fixed
+- Se corrigieron las texturas faltantes del prototipo.
 
-- Secret Ending bug fixed
+- Se corrigió el error del final secreto.
 
-- Minor additions and bug fixes
+- Adiciones menores y correcciones de errores.
