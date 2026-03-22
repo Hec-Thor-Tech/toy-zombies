@@ -29,10 +29,7 @@ body, .md-content {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
   position: relative;
 }
-.cyber-img-panel::before {
-  background: #00f0ff; color: #000; font-size: 0.7em;
-  padding: 2px 8px; font-weight: bold;
-}
+
 .cyber-img {
   width: 100%; margin-top: 15px;
   filter: contrast(1.1) drop-shadow(0 0 5px rgba(0, 240, 255, 0.3));
