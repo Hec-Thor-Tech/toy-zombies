@@ -4,7 +4,7 @@ site_description: Página Oficial de Toy Zombies
 theme:
   name: material
   language: es
-  logo: img/logo.png
+  logo: img/logo.webp
   favicon: img/icono.webp
   # Esta línea obliga a todos los dispositivos a usar letra de Terminal (Máquina de escribir)
   font:
