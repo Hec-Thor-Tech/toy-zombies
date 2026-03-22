@@ -3,6 +3,7 @@ site_description: Página Oficial de Toy Zombies
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   logo: img/logo.webp
   favicon: img/icono.webp
