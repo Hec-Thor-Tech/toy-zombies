@@ -1,14 +1,62 @@
-body {
-  background-image: url('../img/fondo1.webp');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* ¡Esta es la magia que lo hace semi-estático! */
-  background-repeat: no-repeat;
-  background-color: #121212; /* Color de respaldo oscuro por si la imagen tarda en cargar */
+/* CONVERTIR LA PÁGINA EN UNA TERMINAL CRT */
+body, .md-content {
+  background-color: #050505 !important;
+  background-image: 
+    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
+    linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)) !important;
+  background-size: 100% 4px, 3px 100% !important;
+  font-family: "Consolas", "Courier New", monospace !important;
+  color: #e0e0e0 !important;
 }
 
-/* Esto le da un fondo semi-transparente oscuro al menú lateral para que resalte del fondo */
-.md-sidebar--primary .md-sidebar__scrollwrap {
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 8px;
+/* BARRA SUPERIOR E INFERIOR */
+.md-header {
+  background-color: #0a0a0f !important;
+  border-bottom: 2px solid #ff003c;
 }
+
+/* PANELES DE ENTIDAD (ESTILO TERMINAL) */
+.cyber-container {
+  display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;
+}
+
+/* Panel de la Imagen (Cian) */
+.cyber-img-panel {
+  flex: 1; min-width: 300px; background: rgba(0, 20, 40, 0.6);
+  padding: 15px; border: 1px solid #00f0ff;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2) inset;
+  /* Esquina inferior derecha recortada (Efecto geométrico) */
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
+  position: relative;
+}
+.cyber-img-panel::before {
+  content: "SYS.IMG.RECV"; position: absolute; top: 0; left: 0;
+  background: #00f0ff; color: #000; font-size: 0.7em;
+  padding: 2px 8px; font-weight: bold;
+}
+.cyber-img {
+  width: 100%; margin-top: 15px;
+  filter: contrast(1.1) drop-shadow(0 0 5px rgba(0, 240, 255, 0.3));
+}
+
+/* Panel de Datos (Rojo Alerta) */
+.cyber-data-panel {
+  flex: 1; min-width: 300px; background: rgba(40, 5, 5, 0.6);
+  padding: 20px; border: 1px solid #ff003c;
+  box-shadow: 0 0 15px rgba(255, 0, 60, 0.2) inset;
+  /* Esquina superior derecha recortada */
+  clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%);
+  position: relative;
+}
+.cyber-title {
+  color: #ff003c !important; text-transform: uppercase;
+  letter-spacing: 2px; text-shadow: 0 0 5px #ff003c;
+  border-bottom: 1px dashed #ff003c; padding-bottom: 10px; margin-top: 0 !important;
+}
+.cyber-text {
+  color: #00f0ff; font-size: 0.95em; margin-bottom: 12px; line-height: 1.5;
+}
+.cyber-text b {
+  color: #ffffff; text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+.cyber-hr { border-color: #ff003c; opacity: 0.3; margin: 40px 0; }
