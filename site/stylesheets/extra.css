@@ -30,7 +30,6 @@ body, .md-content {
   position: relative;
 }
 .cyber-img-panel::before {
-  content: "SYS.IMG.RECV"; position: absolute; top: 0; left: 0;
   background: #00f0ff; color: #000; font-size: 0.7em;
   padding: 2px 8px; font-weight: bold;
 }
