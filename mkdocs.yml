@@ -1,11 +1,15 @@
 site_name: Toy Zombies
-site_description: La wiki oficial, el lore y la guía de supervivencia.
+site_description: Página Oficial de Toy Zombies
 
 theme:
   name: material
   language: es
   logo: img/logo.png
   favicon: img/icono.webp
+  # Esta línea obliga a todos los dispositivos a usar letra de Terminal (Máquina de escribir)
+  font:
+    text: Roboto Mono
+    code: Roboto Mono
   # Configuración de colores (Tema oscuro por defecto)
   palette:
     scheme: slate

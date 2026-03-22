@@ -1,4 +1,4 @@
-# Bienvenido a la Wiki de Toy Zombies
+# Bienvenido a la página Oficial de Toy Zombies
 
 La infección ha comenzado. Los juguetes ya no son nuestros amigos y el cuarto de juegos ahora es una zona de guerra.
 
