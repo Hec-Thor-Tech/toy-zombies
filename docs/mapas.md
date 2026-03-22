@@ -5,7 +5,7 @@ El complejo comercial **Animall Shopping** es un laberinto de pasillos oscuros y
 ---
 
 ## Green Bear's Arcade
-Una antigua sala de recreativas donde las luces de neón aún parpadean. Las máquinas se encuentran fuera de servicio, si muchos quisieron jugar a algo antes de perder la vida.
+Una antigua sala de recreativas donde las luces de neón aún parpadean. Las máquinas se encuentran fuera de servicio. Si, muchos quisieron jugar a algo antes de perder la vida.
 
 ## Pizzería y Patio de Comidas
 Un área amplia y sumamente oscura donde los restos de comida continúan servidas en las mesas. Algunos dejaron de comer cuando comenzó el caos.
