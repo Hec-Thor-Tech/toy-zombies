@@ -5,17 +5,17 @@ El complejo comercial **Animall Shopping** es un laberinto de pasillos oscuros y
 ---
 
 ## Green Bear's Arcade
-Una antigua sala de recreativas donde las luces de neón aún parpadean.
+Una antigua sala de recreativas donde las luces de neón aún parpadean. Las máquinas se encuentran fuera de servicio, si muchos quisieron jugar a algo antes de perder la vida.
 
 ## Pizzería y Patio de Comidas
-Un área amplia y sumamente oscura donde los restos de comida continúan servidas en las mesas.
+Un área amplia y sumamente oscura donde los restos de comida continúan servidas en las mesas. Algunos dejaron de comer cuando comenzó el caos.
 
 ## Supermercado
 Un local con muchas estanterías que forman un verdadero laberinto.
-* **No consumas nada:** La comida puede ser apetitosa, pero sólo piénsalo, ha estado en ese lugar por muchos años.
+**No consumas nada:** La comida puede ser apetitosa, pero sólo piénsalo, ha estado en ese lugar por muchos años.
 
 ## Cine
-Un gigantesco complejo de entretenimiento con múltiples salas de proyección.
+Un gigantesco complejo de entretenimiento con múltiples salas de proyección. No hay nada mejor que ver una película de terror en una sala con poco público.
 
 ## Estacionamiento
 Ubicado en la primera planta inferior del complejo, encontrarse con autos es menos común que encontrarse con cuerpos sin vida.
