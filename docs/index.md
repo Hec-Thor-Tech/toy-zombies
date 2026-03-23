@@ -5,5 +5,5 @@ Eres un chico en búsqueda de sus amigos luego de que quedaran atrapados en el c
 Pero cuidado... hay algo que te espera, te observa y te estudia desde la oscuridad... Por supuesto, no te dejará escapar tan fácilmente.
 
 * **Mecánicas:** Descubre cómo moverte en el juego.
-* **Toy Zombies:** Conócelos, sus habilidades y debilidades.
+* **Toy Zombies:** Conoce sus habilidades y debilidades.
 * **AniMall´s Shopping:** Explora los rincones más oscuros y todas sus zonas.
