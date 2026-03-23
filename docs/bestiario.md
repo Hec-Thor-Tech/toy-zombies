@@ -64,7 +64,7 @@
     <p class="cyber-text"><b>Nombre:</b> BoBiGo</p>        
     <p class="cyber-text"><b>Especie:</b> Elefante / Oso hormiguero / posiblemente un perro?</p>
     <p class="cyber-text"><b>Habilidades:</b> Te sigue por la espalda</p>
-    <p class="cyber-text"><b>Debilidades:</b> Si lo alumbras cuando te está acechando, desaparecerá</p>
+    <p class="cyber-text"><b>Debilidades:</b> Si lo alumbras cuando te esté acechando, desaparecerá</p>
   </div>
 </div>
 <hr class="cyber-hr">
