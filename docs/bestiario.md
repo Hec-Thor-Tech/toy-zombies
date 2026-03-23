@@ -162,7 +162,7 @@
     <p class="cyber-text"><b>Nombre:</b> Lionmion</p>        
     <p class="cyber-text"><b>Especie:</b> León</p>
     <p class="cyber-text"><b>Habilidades:</b> Si lo despiertas corre hacia tí a toda velocidad</p>
-    <p class="cyber-text"><b>Debilidades:</b> Se la pasa durmiendo</p>
+    <p class="cyber-text"><b>Debilidades:</b> Se la pasa durmiendo generalmente en las salidas de emergencia</p>
   </div>
 </div>
 <hr class="cyber-hr">
