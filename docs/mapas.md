@@ -11,7 +11,7 @@
 
 ## Green Bear's Arcade
 <div class="cyber-data-panel">
-  <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  <img src="../img/atrium.gif" alt="Atrium" class="cyber-img">
 </div>
 
 ## Pizzería y Patio de Comidas
