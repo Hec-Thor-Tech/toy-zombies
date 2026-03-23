@@ -1,4 +1,4 @@
-# Bienvenido a la página Oficial de Toy Zombies
+# Bienvenido a la página Oficial de
 
 <img src="img/logo.webp" alt="Atrium" class="cyber-img">
 
