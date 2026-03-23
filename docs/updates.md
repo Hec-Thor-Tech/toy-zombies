@@ -1,4 +1,4 @@
-# Ultimas actualizaciones: 
+# Últimas actualizaciones: 
 
 Aquí veremos las actualizaciones que fueron posible por el feedback de la gente.
 
