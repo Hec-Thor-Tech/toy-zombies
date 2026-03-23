@@ -2,7 +2,7 @@
 
 Estas son las personas que apoyaron este proyecto, agradecemos enormemente también a todos los que ven el contenido de **Toy Zombies** en la Web.
 
-- FISICOMOLON
+- [FISICOMOLON](https://www.youtube.com/@Toy-Zombies)
 POR SUS TUTORIALES DE BLENDER GAME ENGINE CON LOS QUE ME PUDE CONVERTIR EN EL DESARROLLADOR QUE SOY AHORA.
 
 - EB25
@@ -14,56 +14,54 @@ POR SER LOS PRIMEROS AMIGOS MÍOS QUE PROBARON EL JUEGO EN SU VERSIÓN ORIGINAL 
 - RINIOSAKI
 POR DEVOLVERME LAS GANAS DE VOLVER A DESARROLLAR ESTE PROYECTO
 
-- JUNDER
+- [JUNDER](https://www.youtube.com/@Toy-Zombies)
 POR SER EL PRIMER YOUTUBER EN SUBIR UN VIDEO DE LA DEMO.
 
-- GG GAMES
+- [GG GAMES](https://www.youtube.com/@Toy-Zombies)
 POR SER EL PRIMERO EN STREAMEAR MI JUEGO :D
 
-- DR. SACK GAMING
+- [DR. SACK GAMING](https://www.youtube.com/@Toy-Zombies)
 POR SER EL PRIMERO EN STREAMEAR EL BAD ENDING
 
-- BROCO BRO!
+- [BROCO BRO!](https://www.youtube.com/@Toy-Zombies)
 POR SER EL PRIMERO EN STREMEAR EL NEUTRAL ENDING
 
-A TODAS LAS PERSONAS QUE JUGARON EL JUEGO ANTES DEL 2019
-
-Y A TODOS LOS CREADORES QUE SUBIERON VIDEO DEL JUEGO ANTES DE SU LANZAMIENTO
+Y A TODOS LOS CREADORES QUE SUBIERON VIDEO DEL JUEGO
 
 ## **CREADORES DE CONTENIDO**
 
-- [BUBBLEZ](https://www.youtube.com/@CanalDeBubblez)
+- [BUBBLEZ](https://www.youtube.com/@Toy-Zombies)
 
-- [CAFFEINATED GAMER](https://www.youtube.com/@CaffeinatedGamer)
+- [CAFFEINATED GAMER](https://www.youtube.com/@Toy-Zombies)
 
-- [DARIEUOUS_JONES](https://www.youtube.com/@DarieusJones)
+- [DARIEUOUS_JONES](https://www.youtube.com/@Toy-Zombies)
 
-- [FRUITLOOP1846](https://www.youtube.com/@Fruitloop1846)
+- [FRUITLOOP1846](https://www.youtube.com/@Toy-Zombies)
 
-- [GLOOG](https://www.youtube.com/@Gloog)
+- [GLOOG](https://www.youtube.com/@Toy-Zombies)
 
-- [GUMBALL GAMING](https://www.youtube.com/@GumballGaming)
+- [GUMBALL GAMING](https://www.youtube.com/@Toy-Zombies)
 
-- [HYBRIDDH](https://www.youtube.com/@Hybriddh)
+- [HYBRIDDH](https://www.youtube.com/@Toy-Zombies)
 
-- [JAER_EU](https://www.youtube.com/@Jaer_eu)
+- [JAER_EU](https://www.youtube.com/@Toy-Zombies)
 
-- [JEHX SIN CONTROL](https://www.youtube.com/@JehxSinControl)
+- [JEHX SIN CONTROL](https://www.youtube.com/@Toy-Zombies)
 
-- [JLUSSXC](https://www.youtube.com/@Jlussxc)
+- [JLUSSXC](https://www.youtube.com/@Toy-Zombies)
 
-- [JUBOK](https://www.youtube.com/@Jubok)
+- [JUBOK](https://www.youtube.com/@Toy-Zombies)
 
-- [MERCY](https://www.youtube.com/@Mercy)
+- [MERCY](https://www.youtube.com/@Toy-Zombies)
 
-- [MISSY SPOOKS](https://www.youtube.com/@MissySpooks)
+- [MISSY SPOOKS](https://www.youtube.com/@Toy-Zombies)
 
-- [NOCOM](https://www.youtube.com/@Nocom)
+- [NOCOM](https://www.youtube.com/@Toy-Zombies)
 
-- [SHORTS GMOD](https://www.youtube.com/@ShortsGmod)
+- [SHORTS GMOD](https://www.youtube.com/@Toy-Zombies)
 
-- [SINCOM GAMERZ](https://www.youtube.com/@SincomGamerz)
+- [SINCOM GAMERZ](https://www.youtube.com/@Toy-Zombies)
 
-- [THELNFERNITY](https://www.youtube.com/@Thelnfernity)
+- [THELNFERNITY](https://www.youtube.com/@Toy-Zombies)
 
-- [WINTER GAMING](https://www.youtube.com/@WinterGaming)
+- [WINTER GAMING](https://www.youtube.com/@Toy-Zombies)
