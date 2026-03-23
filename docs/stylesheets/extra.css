@@ -126,3 +126,10 @@ body::after {
   80% { transform: translate(2%, 1%); }
   100% { transform: translate(0, 0); }
 }
+
+/* =================================================== */
+/* OCULTAR TEXTO DUPLICADO DEL LOGO EN LA BARRA        */
+/* =================================================== */
+.md-header__title .md-header__topic:first-child {
+  display: none !important;
+}
