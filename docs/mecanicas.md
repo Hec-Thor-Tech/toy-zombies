@@ -87,3 +87,11 @@ Suelen estar cerca de la tarjeta de acceso una vez pasas la Hora.
 
 Nota: Sólo funcionan en orden, si te saltaste uno, el resto quedará fuera de servicio.
 </div>
+
+## OPCIONES
+
+###RECORDAR RUTA
+<img src="../img/recordar.png" alt="RecordarRuta" class="cyber-img">
+<div class="cyber-img-panel">
+Si te olvidas la última ruta que se mostró, la puedes volver a ver desde el menú de PAUSA.
+</div>
