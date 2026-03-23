@@ -133,7 +133,7 @@
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
     <p class="cyber-text"><b>Nombre:</b> Mike the Cat</p>        
     <p class="cyber-text"><b>Especie:</b> Gato</p>
-    <p class="cyber-text"><b>Habilidades:</b> Se lanza hacia el jugador, corre muy rápido</p>
+    <p class="cyber-text"><b>Habilidades:</b> Se lanza hacia tí, corre muy rápido</p>
     <p class="cyber-text"><b>Debilidades:</b> Cuando te salte, alúmbralo y se frenará</p>
   </div>
 </div>
