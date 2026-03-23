@@ -1,6 +1,6 @@
 # **Agradecimientos Especiales:**
 
-Estas son las personas que apoyaron este proyecto, agradecemos enormemente también a todos los que ven el contenido de **Toy Zombies** en la red.
+Estas son las personas que apoyaron este proyecto, agradecemos enormemente también a todos los que ven el contenido de **Toy Zombies** en la Web.
 
 - FISICOMOLON
 POR SUS TUTORIALES DE BLENDER GAME ENGINE CON LOS QUE ME PUDE CONVERTIR EN EL DESARROLLADOR QUE SOY AHORA.
