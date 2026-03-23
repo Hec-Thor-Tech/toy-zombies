@@ -12,6 +12,7 @@ def limpiar_campos():
     entry_habilidades.delete(0, tk.END)
     entry_debilidades.delete(0, tk.END)
     entry_imagen.delete(0, tk.END)
+    entry_info.delete(0, tk.END) # Nuevo campo limpiado
     btn_guardar_cambios.config(state=tk.DISABLED)
     btn_inyectar.config(state=tk.NORMAL)
 
@@ -28,13 +29,19 @@ def extraer_datos_bestiario():
 
     for bloque in bloques:
         datos = {}
+        
+        # Extraer Nombre e Imagen
         nombre_match = re.search(r'alt="(.*?)"', bloque)
         datos['nombre'] = nombre_match.group(1) if nombre_match else "Sin Nombre"
         img_match = re.search(r'src="\.\.\/img\/(.*?)"', bloque)
         datos['imagen'] = img_match.group(1) if img_match else ""
 
+        # Extraer Información del juego (Todo lo que está después de la imagen y antes de cerrar el panel)
+        info_match = re.search(r'<img[^>]*class="cyber-img">\s*(.*?)\s*</div>\s*<div class="cyber-data-panel">', bloque, re.DOTALL)
+        datos['info'] = info_match.group(1).strip() if info_match else ""
+
+        # Extraer campos de la tabla de datos
         def extraer_campo(label):
-            # Se añade \s* para tolerar espacios extra accidentales
             match = re.search(f'<b>{label}:</b>\\s*(.*?)</p>', bloque)
             return match.group(1).replace('<br>', ' ').strip() if match else ""
 
@@ -42,6 +49,7 @@ def extraer_datos_bestiario():
         datos['habilidades'] = extraer_campo("Habilidades")
         datos['debilidades'] = extraer_campo("Debilidades")
         datos['bloque_completo'] = bloque
+        
         entidades_cargadas.append(datos)
 
     return [e['nombre'] for e in entidades_cargadas]
@@ -62,15 +70,16 @@ def cargar_entidad_seleccionada(event):
     entry_habilidades.insert(0, datos['habilidades'])
     entry_debilidades.insert(0, datos['debilidades'])
     entry_imagen.insert(0, datos['imagen'])
+    entry_info.insert(0, datos['info']) # Cargar la info
     btn_guardar_cambios.config(state=tk.NORMAL)
     btn_inyectar.config(state=tk.DISABLED)
 
-def generar_html_cyberpunk(nombre, especie, habilidades, debilidades, imagen):
+def generar_html_cyberpunk(nombre, especie, habilidades, debilidades, imagen, info):
     if not imagen.endswith((".webp", ".png", ".jpg", ".gif")): imagen += ".webp"
-    # ¡AQUÍ ESTÁ EL CAMBIO PRINCIPAL! Ahora inyecta CARACTERÍSTICAS:
     return f"""<div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/{imagen}" alt="{nombre}" class="cyber-img">
+    {info}
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -88,7 +97,7 @@ def guardar_como_nueva_entidad():
     if not nombre or not imagen: return messagebox.showwarning("Faltan datos", "Falta nombre o imagen.")
     try:
         with open(RUTA_BESTIARIO, "a", encoding="utf-8") as file:
-            file.write(generar_html_cyberpunk(nombre, entry_especie.get(), entry_habilidades.get(), entry_debilidades.get(), imagen))
+            file.write(generar_html_cyberpunk(nombre, entry_especie.get(), entry_habilidades.get(), entry_debilidades.get(), imagen, entry_info.get()))
         limpiar_campos()
         cargar_lista_entidades()
     except Exception as e: messagebox.showerror("Error", str(e))
@@ -97,30 +106,24 @@ def guardar_cambios_entidad():
     seleccion = listbox_entidades.curselection()
     if not seleccion: return
     entidad_vieja = entidades_cargadas[seleccion[0]]
-    html_nuevo = generar_html_cyberpunk(entry_nombre.get(), entry_especie.get(), entry_habilidades.get(), entry_debilidades.get(), entry_imagen.get())
+    html_nuevo = generar_html_cyberpunk(entry_nombre.get(), entry_especie.get(), entry_habilidades.get(), entry_debilidades.get(), entry_imagen.get(), entry_info.get())
     try:
         with open(RUTA_BESTIARIO, "r", encoding="utf-8") as file: content = file.read()
         if entidad_vieja['bloque_completo'] in content:
             with open(RUTA_BESTIARIO, "w", encoding="utf-8") as file: file.write(content.replace(entidad_vieja['bloque_completo'], html_nuevo))
+            
+            # Mantenemos la selección después de guardar
+            index = seleccion[0]
             limpiar_campos()
             cargar_lista_entidades()
+            listbox_entidades.selection_set(index)
+            listbox_entidades.event_generate("<<ListboxSelect>>")
     except Exception as e: messagebox.showerror("Error", str(e))
-
-def migrar_todo_al_nuevo_estilo():
-    if not entidades_cargadas: return
-    respuesta = messagebox.askyesno("Migración", "¿Actualizar todo el bestiario a la nueva cabecera de CARACTERÍSTICAS?")
-    if respuesta:
-        nuevo_contenido = ""
-        for datos in entidades_cargadas:
-            nuevo_contenido += generar_html_cyberpunk(datos['nombre'], datos['especie'], datos['habilidades'], datos['debilidades'], datos['imagen'])
-        with open(RUTA_BESTIARIO, "w", encoding="utf-8") as file: file.write(nuevo_contenido)
-        cargar_lista_entidades()
-        messagebox.showinfo("Éxito", "¡Todo el bestiario ha sido actualizado!")
 
 # --- Interfaz ---
 root = tk.Tk()
-root.title("Terminal Toy Zombies v4.1")
-root.geometry("850x600") 
+root.title("Terminal Toy Zombies v4.2")
+root.geometry("850x650") # Un poco más alto para acomodar el nuevo campo
 root.configure(bg="#050505")
 
 frame_main = tk.Frame(root, bg="#050505")
@@ -128,7 +131,8 @@ frame_main.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
 frame_lista = tk.Frame(frame_main, bg="#050505", width=300); frame_lista.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 20))
 tk.Label(frame_lista, text="ENTIDADES", font=("Consolas", 14, "bold"), bg="#050505", fg="#00f0ff").pack(pady=(0, 15))
 
-listbox_entidades = tk.Listbox(frame_lista, font=("Consolas", 10), bg="#0a0a0f", fg="#00f0ff", selectbackground="#ff003c", selectforeground="white", relief="solid", bd=1)
+# SOLUCIÓN PROBLEMA 2: exportselection=False añadido aquí
+listbox_entidades = tk.Listbox(frame_lista, font=("Consolas", 10), bg="#0a0a0f", fg="#00f0ff", selectbackground="#ff003c", selectforeground="white", relief="solid", bd=1, exportselection=False)
 listbox_entidades.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 listbox_entidades.bind('<<ListboxSelect>>', cargar_entidad_seleccionada)
 
@@ -136,9 +140,6 @@ lbl_total = tk.Label(frame_lista, text="Total: 0", bg="#050505", fg="#888", font
 lbl_total.pack(pady=5)
 btn_limpiar = tk.Button(frame_lista, text="NUEVA FICHA", bg="#111", fg="#fff", font=("Consolas", 9, "bold"), relief="flat", command=limpiar_campos)
 btn_limpiar.pack(fill=tk.X, pady=5)
-
-btn_migrar = tk.Button(frame_lista, text="MIGRAR TODO AL NUEVO ESTILO", bg="#00f0ff", fg="#000", font=("Consolas", 9, "bold"), relief="flat", command=migrar_todo_al_nuevo_estilo)
-btn_migrar.pack(fill=tk.X, pady=5)
 
 frame_form = tk.Frame(frame_main, bg="#050505")
 frame_form.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
@@ -152,7 +153,12 @@ def crear_campo(texto):
     e.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(10, 0))
     return e
 
-entry_nombre, entry_especie, entry_habilidades, entry_debilidades, entry_imagen = crear_campo("Nombre:"), crear_campo("Especie:"), crear_campo("Habilidades:"), crear_campo("Debilidades:"), crear_campo("Imagen:")
+entry_nombre = crear_campo("Nombre:")
+entry_especie = crear_campo("Especie:")
+entry_habilidades = crear_campo("Habilidades:")
+entry_debilidades = crear_campo("Debilidades:")
+entry_imagen = crear_campo("Imagen:")
+entry_info = crear_campo("Info del Juego:") # NUEVO CAMPO AGREGADO
 
 frame_botones = tk.Frame(frame_form, bg="#050505")
 frame_botones.pack(pady=30, fill=tk.X)

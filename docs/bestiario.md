@@ -1,7 +1,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/mono.webp" alt="Mono" class="cyber-img">
-    "Información directa del juego"
+    monomonomonomono
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
