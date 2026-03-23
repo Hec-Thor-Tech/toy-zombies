@@ -16,7 +16,7 @@
 <hr class="cyber-hr">
 
 ## Historia
-Luego de que Aaron afirme que recibió un mensaje de su hermano Aaron, presuntamente desaparecido en AniMall's Shopping, John no dudó en acompañar en la búsqueda. Sabía que la versión oficial del fallo estructural masivo era una mentira, tampoco creyó nunca en las historias fantásticas del lugar, pero nunca imaginó el verdadero horror tenía en frente.
+Luego de que Alan afirmara haber recibido mensajes de su hermano Aaron, aparentemente desaparecido en el Animall Shopping, John se sumó a la búsqueda. Si bien en principio se burló de los supuestos mensajes y tampoco creyó en las innumerables historias fantásticas del lugar, nunca imaginó el verdadero horror que tendría enfrente.
 
 # Alan
 
