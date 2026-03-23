@@ -32,38 +32,38 @@ Y A TODOS LOS CREADORES QUE SUBIERON VIDEO DEL JUEGO ANTES DE SU LANZAMIENTO
 
 ## **CREADORES DE CONTENIDO**
 
-- BUBBLEZ
+- [BUBBLEZ](https://www.youtube.com/@CanalDeBubblez)
 
-- CAFFEINATED GAMER
+- [CAFFEINATED GAMER](https://www.youtube.com/@CaffeinatedGamer)
 
-- DARIEUOUS_JONES
+- [DARIEUOUS_JONES](https://www.youtube.com/@DarieusJones)
 
-- FRUITLOOP1846
+- [FRUITLOOP1846](https://www.youtube.com/@Fruitloop1846)
 
-- GLOOG
+- [GLOOG](https://www.youtube.com/@Gloog)
 
-- GUMBALL GAMING
+- [GUMBALL GAMING](https://www.youtube.com/@GumballGaming)
 
-- HYBRIDDH
+- [HYBRIDDH](https://www.youtube.com/@Hybriddh)
 
-- JAER_EU
+- [JAER_EU](https://www.youtube.com/@Jaer_eu)
 
-- JEHX SIN CONTROL
+- [JEHX SIN CONTROL](https://www.youtube.com/@JehxSinControl)
 
-- JLUSSXC
+- [JLUSSXC](https://www.youtube.com/@Jlussxc)
 
-- JUBOK
+- [JUBOK](https://www.youtube.com/@Jubok)
 
-- MERCY
+- [MERCY](https://www.youtube.com/@Mercy)
 
-- MISSY SPOOKS
+- [MISSY SPOOKS](https://www.youtube.com/@MissySpooks)
 
-- NOCOM
+- [NOCOM](https://www.youtube.com/@Nocom)
 
-- SHORTS GMOD
+- [SHORTS GMOD](https://www.youtube.com/@ShortsGmod)
 
-- SINCOM GAMERZ
+- [SINCOM GAMERZ](https://www.youtube.com/@SincomGamerz)
 
-- THELNFERNITY
+- [THELNFERNITY](https://www.youtube.com/@Thelnfernity)
 
-- WINTER GAMING
+- [WINTER GAMING](https://www.youtube.com/@WinterGaming)
