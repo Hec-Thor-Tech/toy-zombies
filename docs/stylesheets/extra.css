@@ -145,13 +145,14 @@ body::after {
 
 /* 2. Inyectamos nuestro nuevo título temático */
 .md-nav--primary > .md-nav__title::after {
-  content: "Contenidos:"; /* <-- Puedes cambiar este texto por el que más te guste */
-  font-size: 0.9rem !important; /* Restauramos un tamaño de letra legible */
-  color: #00f0ff !important; /* Le damos el color cian para que parezca un panel de control */
+  content: "CONTENIDOS:"; 
+  font-size: 0.9rem !important; 
+  /* Usamos un blanco/gris con 50% de transparencia */
+  color: rgba(255, 255, 255, 0.5) !important; 
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
-  text-shadow: 0 0 5px rgba(0, 240, 255, 0.5); /* Brillo sutil */
+  text-shadow: none; /* Quitamos el brillo cian para hacerlo más sobrio */
   display: inline-block;
   margin-top: 5px;
 }
