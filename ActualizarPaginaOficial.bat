@@ -1,5 +1,5 @@
 @echo off
-title Actualizando Toy Zombies Wiki
+title Actualizando Toy Zombies Página Oficial
 color 0c
 
 echo ===================================================
@@ -12,7 +12,7 @@ echo ===================================================
 echo     2. Guardando textos en el repositorio...
 echo ===================================================
 git add .
-git commit -m "Actualizacion de la wiki"
+git commit -m "Actualizacion de la página oficial"
 git push origin main
 
 echo.
