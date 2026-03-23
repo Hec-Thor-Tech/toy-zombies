@@ -194,3 +194,17 @@
   </div>
 </div>
 <hr class="cyber-hr">
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/secreto1.webp" alt="???" class="cyber-img">
+    ???
+  </div>
+  <div class="cyber-data-panel">
+    <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
+    <p class="cyber-text"><b>Nombre:</b> ???</p>        
+    <p class="cyber-text"><b>Especie:</b> ???</p>
+    <p class="cyber-text"><b>Habilidades:</b> ???</p>
+    <p class="cyber-text"><b>Debilidades:</b> ???</p>
+  </div>
+</div>
+<hr class="cyber-hr">
