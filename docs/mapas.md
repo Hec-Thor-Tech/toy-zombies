@@ -5,22 +5,43 @@
 ---
 
 ## Atrium
-...
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  </div>
 
 ## Green Bear's Arcade
-...
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  </div>
 
 ## Pizzería y Patio de Comidas
-...
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  </div>
 
 ## Supermercado
-...
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  </div>
 
 ## Cine
-...
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  </div>
 
 ## Party Zone
-...
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  </div>
 
 ## Estacionamiento
-...
+<div class="cyber-container">
+  <div class="cyber-img-panel">
+    <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  </div>
