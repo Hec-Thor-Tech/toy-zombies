@@ -1,6 +1,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/mono.webp" alt="Mono" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -14,6 +15,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/plushnee.webp" alt="Plushnee" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -27,6 +29,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/frog.webp" alt="Frog" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -40,6 +43,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/toplush.webp" alt="Toplush" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -53,6 +57,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/bobigo.webp" alt="BoBiGo" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -66,6 +71,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/pulp.webp" alt="Pulp" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -79,6 +85,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/spiderplush.webp" alt="Spiderplush" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -92,6 +99,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/mosci.webp" alt="Mosci" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -105,6 +113,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/mannequin.webp" alt="Mannequin" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -118,6 +127,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/mikethecat.webp" alt="Mike the Cat" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -131,6 +141,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/mousemask.webp" alt="MouseMask" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -144,6 +155,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/lionmion.webp" alt="Lionmion" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -157,6 +169,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/bear.webp" alt="Bear" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
@@ -170,6 +183,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../img/snakeplush.webp" alt="Snakeplush" class="cyber-img">
+    "Información directa del juego"
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">CARACTERÍSTICAS:</h3>
