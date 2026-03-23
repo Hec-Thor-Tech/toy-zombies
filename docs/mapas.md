@@ -4,6 +4,9 @@
 
 ---
 
+## Atrium
+...
+
 ## Green Bear's Arcade
 ...
 
@@ -16,8 +19,8 @@
 ## Cine
 ...
 
-## Estacionamiento
+## Party Zone
 ...
 
-## Almacenes
+## Estacionamiento
 ...
