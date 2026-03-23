@@ -145,7 +145,7 @@ body::after {
 
 /* 2. Inyectamos nuestro nuevo título temático */
 .md-nav--primary > .md-nav__title::after {
-  content: "DIRECTORIO"; /* <-- Puedes cambiar este texto por el que más te guste */
+  content: "Contenidos:"; /* <-- Puedes cambiar este texto por el que más te guste */
   font-size: 0.9rem !important; /* Restauramos un tamaño de letra legible */
   color: #00f0ff !important; /* Le damos el color cian para que parezca un panel de control */
   text-transform: uppercase;
