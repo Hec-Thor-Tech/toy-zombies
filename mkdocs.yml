@@ -20,7 +20,7 @@ theme:
 # Barra de navegación (Menú superior/lateral)
 nav:
   - Inicio: index.md
-  - Historia: lore.md
+  - Sinópsis: lore.md
   - Toy Zombies: bestiario.md
   - Mecánicas: mecanicas.md
   - AniMall's Shopping: mapas.md
