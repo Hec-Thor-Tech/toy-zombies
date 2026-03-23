@@ -133,3 +133,31 @@ body::after {
 .md-header__title .md-header__topic:first-child {
   display: none !important;
 }
+
+/* =================================================== */
+/* RENOMBRAR EL TÍTULO DEL PANEL LATERAL (MENÚ)        */
+/* =================================================== */
+
+/* 1. Ocultamos el "Toy Zombies" original reduciendo su tamaño a 0 */
+.md-nav--primary > .md-nav__title {
+  font-size: 0 !important; 
+}
+
+/* 2. Inyectamos nuestro nuevo título temático */
+.md-nav--primary > .md-nav__title::after {
+  content: "DIRECTORIO"; /* <-- Puedes cambiar este texto por el que más te guste */
+  font-size: 0.9rem !important; /* Restauramos un tamaño de letra legible */
+  color: #00f0ff !important; /* Le damos el color cian para que parezca un panel de control */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(0, 240, 255, 0.5); /* Brillo sutil */
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/* 3. Aseguramos que si hay un logo a la izquierda, no desaparezca por el tamaño 0 */
+.md-nav--primary > .md-nav__title .md-logo {
+  font-size: 1rem !important;
+  margin-right: 10px;
+}
