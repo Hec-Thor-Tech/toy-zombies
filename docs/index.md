@@ -1,6 +1,6 @@
 # Bienvenido a la página Oficial de Toy Zombies
 
-<img src="../img/atrium.gif" alt="Atrium" class="cyber-img">
+<img src="img/logo.webp" alt="Atrium" class="cyber-img">
 
 Eres un chico en búsqueda de sus amigos luego de que quedaran atrapados en el centro comercial. Ahora, tu objetivo será encontrarlos y escapar del shopping antes del amanecer.
 
