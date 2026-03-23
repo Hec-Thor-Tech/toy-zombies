@@ -11,6 +11,7 @@ Solo hay 5 de ellos que pueden hacerlo, y 2 de ellos son versiones Mini de los o
 ### MOVIMIENTO
 <div class="cyber-img-panel">
 Algunos Toy Zombies son demasiado rápidos; sin embargo, puedes usar su mecánica de dispersión a tu favor, porque si mantienes al más rápido detrás del más lento, el más rápido intentará encontrar otro camino para evitar chocar con el Toy Zombie que está frente a él.
+</div>
 
 ### ASECHO
 <div class="cyber-img-panel">
