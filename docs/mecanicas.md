@@ -1,11 +1,13 @@
 # Mecánicas del juego
 
-## JUGABILIDAD
+## MECÁNICA BÁSICA:
 
 ### VENTILACIONES
 
 Algunos Toy Zombies pueden entrar por las rejillas de ventilación
->Solo hay 5 de ellos que pueden hacerlo, y 2 de ellos son versiones Mini de los originales, estos dentro de las rejillas de ventilación pueden matarte sin problemas.
+<div class="cyber-img-panel">
+  Solo hay 5 de ellos que pueden hacerlo, y 2 de ellos son versiones Mini de los originales, estos dentro de las rejillas de ventilación pueden matarte sin problemas.
+</div>
 
 ### MOVIMIENTO
 
@@ -29,3 +31,12 @@ Cuando te detectan y luego te pierden de vista, **investigan la zona para averig
 ### SENTIDO
 
 Son extremadamente **sensibles al ruido**, puedes lanzarles objetos y usarlos como distracción o puedes encender la linterna para llamarlos al lugar que quieres que vayan.
+
+## JUGABILIDAD:
+
+### LINTERNA
+
+Como el centro comercial está bastante oscuro, siempre es mejor tener la linterna encendida. Si la apagas, atraerás a los stalkers, pero si la enciendes, harás ruido y serás más fácil de detectar. Por lo tanto, necesitas encontrar un equilibrio entre mantener la linterna encendida y apagada.
+
+
+## HORAS
