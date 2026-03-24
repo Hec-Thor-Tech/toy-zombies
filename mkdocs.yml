@@ -25,10 +25,8 @@ plugins:
         - locale: es
           default: true
           name: Español
-          build_step: setup
         - locale: en
           name: English
-          build_step: setup
           nav_translations:
             Inicio: Home
             Sinópsis: Synopsis
