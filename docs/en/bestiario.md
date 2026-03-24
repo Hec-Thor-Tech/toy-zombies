@@ -141,7 +141,7 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
     <img src="../../img/mousemask.webp" alt="MouseMask" class="cyber-img">
-    If you hear him say SHHH, avoid running at all costs; he can hear you running even when your flashlight is off.
+    If you hear him say HUSH, avoid running at all costs; he can hear you running even when your flashlight is off.
   </div>
   <div class="cyber-data-panel">
     <h3 class="cyber-title">FEATURES:</h3>

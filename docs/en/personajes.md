@@ -2,58 +2,58 @@
 
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../../img/john.webp" alt="Sujeto: John" class="cyber-img">
-    John es el protagonista principal de Toy Zombies.
+    <img src="../../img/john.webp" alt="Subject: John" class="cyber-img">
+    John is the main protagonist of Toy Zombies.
   </div>
   <div class="cyber-data-panel">
-    <h3 class="cyber-title">Detalles</h3>
-    <p class="cyber-text"><b>Nombre:</b> John Bianchi</p>
-    <p class="cyber-text"><b>Rol:</b>Protagonista</p>
-    <p class="cyber-text"><b>Equipamiento:</b> Linterna</p>
+    <h3 class="cyber-title">Details</h3>
+    <p class="cyber-text"><b>Name:</b> John Bianchi</p>
+    <p class="cyber-text"><b>Role:</b> Protagonist</p>
+    <p class="cyber-text"><b>Equipment:</b> Flashlight</p>
   </div>
 </div>
 
 <hr class="cyber-hr">
 
-### Historia
-Luego de que Alan afirmara haber recibido mensajes de su hermano Aaron, aparentemente desaparecido en el Animall Shopping, John se sumó a la búsqueda. Si bien en principio se burló de los supuestos mensajes y tampoco creyó en las innumerables historias fantásticas del lugar, nunca imaginó el verdadero horror que tendría enfrente.
+### Story
+After Alan claimed to have received messages from his brother Aaron, who apparently went missing at AniMall's Shopping, John joined the search. Although at first he mocked the supposed messages and didn't believe the countless fantastical stories about the place, he never imagined the true horror he was about to face.
 
 # Alan
 
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../../img/alan.webp" alt="Sujeto: Alan" class="cyber-img">
-    Alan es el hermano de Aaron.
+    <img src="../../img/alan.webp" alt="Subject: Alan" class="cyber-img">
+    Alan is Aaron's brother.
   </div>
   <div class="cyber-data-panel">
-    <h3 class="cyber-title">Detalles</h3>
-    <p class="cyber-text"><b>Nombre:</b> Alan García</p>
-    <p class="cyber-text"><b>Rol:</b>Personaje secuandario</p>
-    <p class="cyber-text"><b>Equipamiento:</b>S/N</p>
+    <h3 class="cyber-title">Details</h3>
+    <p class="cyber-text"><b>Name:</b> Alan Garcia</p>
+    <p class="cyber-text"><b>Role:</b> Supporting Character</p>
+    <p class="cyber-text"><b>Equipment:</b> N/A</p>
   </div>
 </div>
 
 <hr class="cyber-hr">
 
-### Historia
-Alan estuvo recibiendo mensajes en las noches, primero creía que se trataba de pesadillas, pero cada vez se hacía mas insoportable. El mensaje, "Alan estoy atrapado, ayúdame" con la voz de su hermano Aaron. El último lugar conocido era su trabajo en AniMall's Shopping. Luego de convencer a sus amigos John y Eric que lo que sentía es verdad, emprenden juntos la busqueda.
+### Story
+Alan had been receiving messages at night; at first, he thought they were just nightmares, but it became increasingly unbearable. The message: "Alan, I'm trapped, help me," spoken in the voice of his brother Aaron. His last known location was his workplace at AniMall's Shopping. After convincing his friends John and Eric that what he was experiencing was real, they set out on the search together.
 
 # Eric
 
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../../img/eric.webp" alt="Sujeto: Eric" class="cyber-img">
-    Es el mejor amigo de John y Alan.
+    <img src="../../img/eric.webp" alt="Subject: Eric" class="cyber-img">
+    He is John and Alan's best friend.
   </div>
   <div class="cyber-data-panel">
-    <h3 class="cyber-title">Detalles</h3>
-    <p class="cyber-text"><b>Nombre:</b> Eric</p>
-    <p class="cyber-text"><b>Rol:</b>Personaje secuandario</p>
-    <p class="cyber-text"><b>Equipamiento:</b>Pistola</p>
+    <h3 class="cyber-title">Details</h3>
+    <p class="cyber-text"><b>Name:</b> Eric</p>
+    <p class="cyber-text"><b>Role:</b> Supporting Character</p>
+    <p class="cyber-text"><b>Equipment:</b> Pistol</p>
   </div>
 </div>
 
 <hr class="cyber-hr">
 
-### Historia
-Eric inmediatamente se lanzó a la busqueda de Aaron sin dudarlo, para ello fue preparado con una pistola, si algo o alguien se quisiera meter con sus amigos se enfrentaría al poder de sus balas, el problema es que las criaturas que los esperan no estaban en el plan. Sin duda Eric lo va a dejar todo por sus amigos.
+### Story
+Eric immediately jumped into the search for Aaron without hesitation. For this, he came prepared with a pistol; if anything or anyone wanted to mess with his friends, they would face the power of his bullets. The problem is that the creatures waiting for them were not part of the plan. Without a doubt, Eric will give everything for his friends.

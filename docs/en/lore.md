@@ -1,11 +1,11 @@
-## El Incidente (La Versión Oficial)
-> **EL DIARIO DE LA CIUDAD - ARCHIVO DIGITAL**
->*A principios de los 2000, un supuesto "fallo estructural masivo" obligó a clausurar definitivamente el **AniMall's Shopping**, el centro comercial más grande y próspero de la ciudad. Las autoridades sellaron las puertas y el silencio consumió el edificio...*
+## The Incident (The Official Story)
+> **THE CITY JOURNAL - DIGITAL ARCHIVE**
+>*In the early 2000s, an alleged "massive structural failure" forced the permanent closure of **AniMall's Shopping**, the largest and most prosperous mall in the city. Authorities sealed the doors, and silence consumed the building...*
 
-... pero no todos compraron la historia oficial.
+... but not everyone bought the official story.
 
-# La búsqueda
-Tras la misteriosa desaparición de **Aaron**, su hermano **Alan** y sus amigos **John** y **Eric** deciden ignorar las advertencias y adentrarse en las profundidades del complejo abandonado. Lo que comienza como una misión de búsqueda, se transforma rápidamente en una pesadilla para ellos de la que parece no haber escape.
+# The Search
+Following the mysterious disappearance of **Aaron**, his brother **Alan** and their friends **John** and **Eric** decide to ignore the warnings and delve into the depths of the abandoned complex. What begins as a search mission quickly turns into a nightmare for them from which there seems to be no escape.
 
-**¿Qué final lograrás tener?**
+**Which ending will you achieve?**
 <video src="../../img/huye.webm" class="cyber-img" autoplay loop muted playsinline></video>

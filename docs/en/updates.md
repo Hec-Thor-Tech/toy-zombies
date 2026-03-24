@@ -1,29 +1,29 @@
-# Últimas actualizaciones: 
+# Latest Updates: 
 
-Aquí veremos las actualizaciones que fueron posible por el feedback de la gente.
+Here we will see the updates that were made possible by people's feedback.
 
 ---
 
-## **ACTUALIZACIÓN PERIÓDICA** PUBLICADO EL 22 de marzo de 2026
+## **PERIODIC UPDATE** PUBLISHED ON March 22, 2026
 
 -**"Toy Zombies GUIDANCE UPDATE"**-
 
-Tras ver algunos vídeos y recibir muchos comentarios, decidí que sería buena idea realizar algunas mejoras en esta versión (v1.1.0). Estoy bastante satisfecho con lo que aporta esta actualización al juego; mejora la experiencia general y facilita la exploración.
+After watching some videos and receiving a lot of feedback, I decided it would be a good idea to make some improvements in this version (v1.1.0). I am quite satisfied with what this update brings to the game; it improves the overall experience and makes exploration easier.
 
-**Esta actualización incluye:**
+**This update includes:**
 
-- Marcado de áreas específicas.
+- Marking of specific areas.
 
-- Explicaciones mejoradas de algunos consejos.
+- Improved explanations for some hints.
 
-- Se corrigió el Memory leak de las horas 8 y 9.
+- Fixed the memory leak in hours 8 and 9.
 
-- Las cinemáticas prerrenderizadas se redujeron a 480p para PC de gama baja (aunque las cinemáticas en HD permanecen en los archivos del juego).
+- Pre-rendered cutscenes were downgraded to 480p for low-end PCs (although the HD cutscenes remain in the game files).
 
-- Se corrigieron algunos errores de la malla de navegación.
+- Fixed some navigation mesh errors.
 
-- Se corrigieron las texturas faltantes del prototipo.
+- Fixed missing prototype textures.
 
-- Se corrigió el error del final secreto.
+- Fixed the secret ending bug.
 
-- Adiciones menores y correcciones de errores.
+- Minor additions and bug fixes.
