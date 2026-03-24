@@ -34,11 +34,9 @@ extra_css:
 # Configuración extra para agregar el selector de idiomas en la cabecera
 extra:
   alternate:
-    # Este es el botón para Español
     - name: Español
       link: /
       lang: es
-    # Este es el botón para Inglés
     - name: English
-      link: /en/
+      link: /en/index.html  # <-- Agregamos index.html aquí
       lang: en
