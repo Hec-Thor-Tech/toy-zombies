@@ -1,6 +1,6 @@
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/mono.webp" alt="Mono" class="cyber-img">
+    <img src="../../img/mono.webp" alt="Mono" class="cyber-img">
     When he screams, he activates the omniscience of all Toy Zombies on the map until he stops screaming. However, this is the only toy zombie that doesn't detect you well if your flashlight is off (though he will probably kill you if you touch him). When he chases you, his speed isn't a real threat if you start running.
   </div>
   <div class="cyber-data-panel">
@@ -14,7 +14,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/plushnee.webp" alt="Plushnee" class="cyber-img">
+    <img src="../../img/plushnee.webp" alt="Plushnee" class="cyber-img">
     During the first few hours, Plushnee mimics your movement state: if you walk, he walks; if you run, he runs. However, as the difficulty increases, he will give you fewer opportunities to move and will start running as soon as you move, even a little bit.
   </div>
   <div class="cyber-data-panel">
@@ -28,7 +28,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/frog.webp" alt="Frog" class="cyber-img">
+    <img src="../../img/frog.webp" alt="Frog" class="cyber-img">
     His initial phase is "Frog's Eye". This eye will act as a minion that alerts Frog to your location whenever it sees you, and obviously, the higher the difficulty, the greater its vision range (even with the flashlight off).
   </div>
   <div class="cyber-data-panel">
@@ -42,7 +42,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/toplush.webp" alt="Toplush" class="cyber-img">
+    <img src="../../img/toplush.webp" alt="Toplush" class="cyber-img">
     You just have to shine the flashlight in his face as many times as you want to stun him. However, he is the fastest Toy Zombie in the ventilation ducts, so be very careful when passing through there.
   </div>
   <div class="cyber-data-panel">
@@ -56,7 +56,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/bobigo.webp" alt="BoBiGo" class="cyber-img">
+    <img src="../../img/bobigo.webp" alt="BoBiGo" class="cyber-img">
     He will always be lurking behind your line of sight, so you must pay close attention to the sounds behind you, because it could be him peeking around a corner.
   </div>
   <div class="cyber-data-panel">
@@ -70,7 +70,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/pulp.webp" alt="Pulp" class="cyber-img">
+    <img src="../../img/pulp.webp" alt="Pulp" class="cyber-img">
     She can throw up to 6 Mini Pulps to slow you down; the more that accumulate on your screen, the slower you become.
   </div>
   <div class="cyber-data-panel">
@@ -84,7 +84,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/spiderplush.webp" alt="Spiderplush" class="cyber-img">
+    <img src="../../img/spiderplush.webp" alt="Spiderplush" class="cyber-img">
     She can walk on ceilings and, when in that state, can lunge at you, which allows you to dodge her and make her lose sight of you.
   </div>
   <div class="cyber-data-panel">
@@ -98,7 +98,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/mosci.webp" alt="Mosci" class="cyber-img">
+    <img src="../../img/mosci.webp" alt="Mosci" class="cyber-img">
     She will always try to lunge at you, you just have to get out of her way and let her crash into a wall.
   </div>
   <div class="cyber-data-panel">
@@ -112,7 +112,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/mannequin.webp" alt="Mannequin" class="cyber-img">
+    <img src="../../img/mannequin.webp" alt="Mannequin" class="cyber-img">
     He is completely omniscient. He will turn your flashlight on when you are near and drop a corpse to try and catch you. When he does, make sure to turn off the flashlight to prevent him from lunging at you.
   </div>
   <div class="cyber-data-panel">
@@ -126,7 +126,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/mikethecat.webp" alt="Mike the Cat" class="cyber-img">
+    <img src="../../img/mikethecat.webp" alt="Mike the Cat" class="cyber-img">
     When he sees you, he will get a running start to jump at you, and as soon as he is in the air, shine the light in his face to stun him.
   </div>
   <div class="cyber-data-panel">
@@ -140,7 +140,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/mousemask.webp" alt="MouseMask" class="cyber-img">
+    <img src="../../img/mousemask.webp" alt="MouseMask" class="cyber-img">
     If you hear him say SHHH, avoid running at all costs; he can hear you running even when your flashlight is off.
   </div>
   <div class="cyber-data-panel">
@@ -154,7 +154,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/lionmion.webp" alt="Lionmion" class="cyber-img">
+    <img src="../../img/lionmion.webp" alt="Lionmion" class="cyber-img">
     The harder it gets, the more sensitive he will be to the noises you make, but generally, to avoid waking him up, just keeping the flashlight off when you hear him snoring is enough.
   </div>
   <div class="cyber-data-panel">
@@ -168,7 +168,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/bear.webp" alt="Bear" class="cyber-img">
+    <img src="../../img/bear.webp" alt="Bear" class="cyber-img">
     You must maintain eye contact with her at all times; you can only do this with the flashlight on; otherwise, it won't work. Stay like that for a while until she leaves, or find a hiding place or some way to get rid of her.
   </div>
   <div class="cyber-data-panel">
@@ -182,7 +182,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/snakeplush.webp" alt="Snakeplush" class="cyber-img">
+    <img src="../../img/snakeplush.webp" alt="Snakeplush" class="cyber-img">
     He only attacks in the atrium, but the longer you stay there, the faster he will become, making it easier for him to kill you.
   </div>
   <div class="cyber-data-panel">
@@ -196,7 +196,7 @@
 <hr class="cyber-hr">
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/secreto1.webp" alt="???" class="cyber-img">
+    <img src="../../img/secreto1.webp" alt="???" class="cyber-img">
     ???
   </div>
   <div class="cyber-data-panel">

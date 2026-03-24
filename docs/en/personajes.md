@@ -2,7 +2,7 @@
 
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/john.webp" alt="Sujeto: John" class="cyber-img">
+    <img src="../../img/john.webp" alt="Sujeto: John" class="cyber-img">
     John es el protagonista principal de Toy Zombies.
   </div>
   <div class="cyber-data-panel">
@@ -22,7 +22,7 @@ Luego de que Alan afirmara haber recibido mensajes de su hermano Aaron, aparente
 
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/alan.webp" alt="Sujeto: Alan" class="cyber-img">
+    <img src="../../img/alan.webp" alt="Sujeto: Alan" class="cyber-img">
     Alan es el hermano de Aaron.
   </div>
   <div class="cyber-data-panel">
@@ -42,7 +42,7 @@ Alan estuvo recibiendo mensajes en las noches, primero creía que se trataba de 
 
 <div class="cyber-container">
   <div class="cyber-img-panel">
-    <img src="../img/eric.webp" alt="Sujeto: Eric" class="cyber-img">
+    <img src="../../img/eric.webp" alt="Sujeto: Eric" class="cyber-img">
     Es el mejor amigo de John y Alan.
   </div>
   <div class="cyber-data-panel">
