@@ -33,10 +33,10 @@
 
 ### Party Zone
 <div class="cyber-data-panel">
-  <img src="../img/atrium.webp" alt="Atrium" class="cyber-img">
+  <img src="../img/partyzone.jfif" alt="Party Zone" class="cyber-img">
 </div>
 
 ### Estacionamiento
 <div class="cyber-data-panel">
-  <img src="../img/estacionamiento.jpg" alt="Atrium" class="cyber-img">
+  <img src="../img/estacionamiento.jpg" alt="Estacionamiento" class="cyber-img">
 </div>
