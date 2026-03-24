@@ -8,3 +8,4 @@
 Tras la misteriosa desaparición de **Aaron**, su hermano **Alan** y sus amigos **John** y **Eric** deciden ignorar las advertencias y adentrarse en las profundidades del complejo abandonado. Lo que comienza como una misión de búsqueda, se transforma rápidamente en una pesadilla para ellos de la que parece no haber escape.
 
 **¿Qué final lograrás tener?**
+<video src="../img/huye.webm" class="cyber-img" autoplay loop muted playsinline></video>

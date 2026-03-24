@@ -82,6 +82,7 @@ Cada vez que te acerques a ellos se te dará la oportunidad de salvarlo. No los 
 </div>
 
 ### MINIJUEGOS
+<video src="../img/minijuegos.webm" class="cyber-img" autoplay loop muted playsinline></video>
 <div class="cyber-img-panel">
 Suelen estar cerca de la tarjeta de acceso una vez pasas la Hora.
 
