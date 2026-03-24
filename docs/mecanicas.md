@@ -1,98 +1,98 @@
-# Mecánicas del juego
+# Game Mechanics
 
-## MECÁNICA BÁSICA:
+## BASIC MECHANICS:
 
-### VENTILACIONES
+### VENTS
 <div class="cyber-img-panel">
-Algunos Toy Zombies pueden entrar por las rejillas de ventilación
-Solo hay 5 de ellos que pueden hacerlo, y 2 de ellos son versiones Mini de los originales, estos dentro de las rejillas de ventilación pueden matarte sin problemas.
+Some Toy Zombies can enter through the ventilation grates.
+There are only 5 of them that can do this, and 2 of them are Mini versions of the originals; these can kill you without a problem while inside the vents.
 </div>
 
-### MOVIMIENTO
+### MOVEMENT
 <div class="cyber-img-panel">
-Algunos Toy Zombies son demasiado rápidos; sin embargo, puedes usar su mecánica de dispersión a tu favor, porque si mantienes al más rápido detrás del más lento, el más rápido intentará encontrar otro camino para evitar chocar con el Toy Zombie que está frente a él.
+Some Toy Zombies are extremely fast; however, you can use their dispersion mechanic to your advantage. If you keep the fastest one behind the slowest one, the fastest one will try to find another path to avoid colliding with the Toy Zombie in front of it.
 </div>
 
-### ASECHO
+### STALKING
 <div class="cyber-img-panel">
-Si tu linterna está apagada, es probable que haya stalkers en las esquinas. Cuando están en este estado, se les iluminará la cara. 
-Alumbrales con la linterna antes de que salgan de ese estado y te persigan.
+If your flashlight is off, there are likely stalkers lurking in the corners. When they are in this state, their faces will light up. 
+Shine your flashlight on them before they snap out of that state and start chasing you.
 </div>
 
-### PERSECUCIÓN
+### PURSUIT
 <div class="cyber-img-panel">
-La clave para escapar de una persecución es despistarlos. Busca una pared o un lugar donde no puedan verte y suelta el botón de correr para dejar de gritar. Esto aumentará considerablemente las posibilidades de que salgan de este estado. Sin embargo, hacerlo demasiado cerca de ellos no te salvará. 
->Esconderse en lockers o cualquier otro escondite no funcionará en este estado.
+The key to escaping a chase is to lose them. Find a wall or a place where they can't see you and release the run button to stop screaming. This will significantly increase the chances of them leaving this state. However, doing it too close to them won't save you. 
+>Hiding in lockers or any other hiding spot will not work in this state.
 </div>
 
 ### VISION
 <div class="cyber-img-panel">
-Cuando te detectan y luego te pierden de vista, investigan la zona para averiguar dónde podrías estar escondido. Después, vuelven a su modo de patrullaje aleatorio. 
-Otra ventaja de su visión es que pueden verte si estás muy cerca de ellos (incluso con la linterna apagada, así que ten mucho cuidado si te acercas a uno).
+When they detect you and then lose sight of you, they will investigate the area to figure out where you might be hiding. Afterwards, they will return to their random patrol mode. 
+Another advantage of their vision is that they can see you if you are very close to them (even with the flashlight off, so be very careful if you get close to one).
 </div>
 
-### SENTIDO
+### SENSES
 <div class="cyber-img-panel">
-Son extremadamente sensibles al ruido, puedes lanzarles objetos y usarlos como distracción o puedes encender la linterna para llamarlos al lugar que quieres que vayan.
+They are extremely sensitive to noise. You can throw objects and use them as a distraction, or you can turn on the flashlight to lure them to a specific place.
 </div>
 
-## JUGABILIDAD:
+## GAMEPLAY:
 
-### LINTERNA
+### FLASHLIGHT
 <div class="cyber-img-panel">
-Como el centro comercial está bastante oscuro, siempre es mejor tener la linterna encendida. Si la apagas, atraerás a los stalkers, pero si la enciendes, harás ruido y serás más fácil de detectar. Por lo tanto, necesitas encontrar un equilibrio entre mantener la linterna encendida y apagada.
+Since the mall is quite dark, it is always better to keep the flashlight on. If you turn it off, you will attract stalkers, but if you turn it on, you will make noise and be easier to detect. Therefore, you need to find a balance between keeping the flashlight on and off.
 </div>
 
-### ADRENALINA
+### ADRENALINE
 <div class="cyber-img-panel">
-Cada 5 segundos que sigas corriendo tu personaje entrará en modo adrenalina y tendrás un aumento de velocidad, sin embargo, esto hace que hagas un ruido extremadamente fuerte.
+Every 5 seconds you keep running, your character will enter adrenaline mode, giving you a speed boost. However, this causes you to make an extremely loud noise.
 </div>
 
-### CORRER SIGILOSAMENTE
+### STEALTH RUNNING
 <div class="cyber-img-panel">
-Puedes correr sigilosamente si mantienes tu linterna apagada mientras corres, pero si estás en modo adrenalina no importa si tu linterna está apagada, harás ruido de todos modos.
+You can run stealthily if you keep your flashlight off while running, but if you are in adrenaline mode, it doesn't matter if your flashlight is off—you will make noise anyway.
 </div>
 
 ## HUD
 
 ### NOISE HUD
 <div class="cyber-img-panel">
-Esta parte del HUD te dirá en qué dirección está el Toy Zombie más cercano. Cuanto más cerca esté, más opaco se volverá.
+This part of the HUD will tell you in which direction the nearest Toy Zombie is. The closer it is, the more opaque it will become.
 </div>
 
 ### SOUND HUD
 <div class="cyber-img-panel">
-Esta parte del HUD indica cuánto ruido haces:
+This part of the HUD indicates how much noise you are making:
 
-Nivel 1: Mínimo, solo Mousemask puede oírte.
+Level 1: Minimum, only MouseMask can hear you.
 
-Nivel 2: Los enemigos ahora pueden saber dónde estás y buscarán posibles escondites.
+Level 2: Enemies can now know where you are and will search potential hiding spots.
 
-Nivel 3: Ahora pueden conocer tu ubicación.
+Level 3: Now they know your exact location.
 
-Nota: Cuando el HUD se pone rojo, significa que te están persiguiendo.
+Note: When the HUD turns red, it means you are being chased.
 </div>
 
-## HORAS
+## HOURS
 
 ### SAVE ERIC
 <img src="../img/save.webp" alt="MouseMask" class="cyber-img">
 <div class="cyber-img-panel">
-Cada vez que te acerques a ellos se te dará la oportunidad de salvarlo. No los pases por alto, ya que si no activas uno en la hora que corresponde Eric morirá.
+Every time you get close to them, you will be given the chance to save him. Do not ignore them, because if you don't activate one in the corresponding hour, Eric will die.
 </div>
 
-### MINIJUEGOS
+### MINIGAMES
 <video src="../img/minijuegos.webm" class="cyber-img" autoplay loop muted playsinline></video>
 <div class="cyber-img-panel">
-Suelen estar cerca de la tarjeta de acceso una vez pasas la Hora.
+They are usually located near the keycard once you pass the Hour.
 
-Nota: Sólo funcionan en orden, si te saltaste uno, el resto quedará fuera de servicio.
+Note: They only work in order. If you skip one, the rest will be out of service.
 </div>
 
-## OPCIONES
+## OPTIONS
 
-###RECORDAR RUTA
-<img src="../img/recordar.png" alt="RecordarRuta" class="cyber-img">
+### REMEMBER ROUTE
+<img src="../img/remember.png" alt="RecordarRuta" class="cyber-img">
 <div class="cyber-img-panel">
-Si te olvidas la última ruta que se mostró, la puedes volver a ver desde el menú de PAUSA.
+If you forget the last route that was shown, you can view it again from the PAUSE menu.
 </div>

@@ -2,11 +2,11 @@
 
  <img src="../img/animallsshopping.jpg" alt="Animall" class="cyber-img">
 
-¡Bienvenido a AniMall's Shopping! Explora el centro comercial, disfruta de momentos en familia y de todos nuestros servicios. Contamos con un gran cine y un centro de juegos. ¿O quizás le gustaría entretener a sus hijos con nuestras mascotas? ¡No hay problema! Hay muchísimas por todo el centro comercial. Son dulces y adorables, y puedes abrazarlos, pero solo por tiempo limitado.
+Welcome to AniMall's Shopping! Explore the mall, enjoy family moments and all our services. We have a great cinema and a gaming center. Or perhaps you would like to entertain your children with our mascots? No problem! There are plenty of them all over the mall. They are sweet and adorable, and you can hug them, but only for a limited time.
   
   <video src="../img/atrium.webm" class="cyber-img" autoplay loop muted playsinline></video>
 
-## Sectores:
+## Sectors:
 
 ### Atrium
 <div class="cyber-data-panel">
@@ -18,17 +18,17 @@
   <img src="../img/gbarcade.png" alt="Arcade" class="cyber-img">
 </div>
 
-### Pizzería y Patio de Comidas
+### Pizzeria and Food Court
 <div class="cyber-data-panel">
   <img src="../img/patio.jpg" alt="Patio" class="cyber-img">
 </div>
 
-### Supermercado
+### Supermarket
 <div class="cyber-data-panel">
   <img src="../img/supermercado.jpg" alt="Supermercado" class="cyber-img">
 </div>
 
-### Cine
+### Cinema
 <div class="cyber-data-panel">
   <img src="../img/cine.jpg" alt="Cinema" class="cyber-img">
 </div>
@@ -38,7 +38,7 @@
   <img src="../img/partyzone.jfif" alt="Party Zone" class="cyber-img">
 </div>
 
-### Estacionamiento
+### Parking Lot
 <div class="cyber-data-panel">
   <img src="../img/estacionamiento.jpg" alt="Estacionamiento" class="cyber-img">
 </div>

@@ -17,35 +17,35 @@ theme:
     accent: red
 
 # 1. INYECTAR ESTE MÓDULO DE PLUGINS:
+nav:
+  - Home: index.md
+  - Synopsis: lore.md
+  - Toy Zombies: bestiario.md
+  - Mechanics: mecanicas.md
+  - AniMall's Shopping: mapas.md
+  - Characters: personajes.md
+  - Special Thanks: gracias.md
+  - Updates: updates.md
+
 plugins:
   - search
   - i18n:
       docs_structure: folder
       languages:
-        - locale: es
-          default: true
-          name: Español
         - locale: en
+          default: true
           name: English
+        - locale: es
+          name: Español
           nav_translations:
-            Inicio: Home
-            Sinópsis: Synopsis
+            Home: Inicio
+            Synopsis: Sinópsis
             Toy Zombies: Toy Zombies
-            Mecánicas: Mechanics
+            Mechanics: Mecánicas
             AniMall's Shopping: AniMall's Shopping
-            Personajes: Characters
-            Agradecimientos Especiales: Special Thanks
-            Actualizaciones: Updates
-
-nav:
-  - Inicio: index.md
-  - Sinópsis: lore.md
-  - Toy Zombies: bestiario.md
-  - Mecánicas: mecanicas.md
-  - AniMall's Shopping: mapas.md
-  - Personajes: personajes.md
-  - Agradecimientos Especiales: gracias.md
-  - Actualizaciones: updates.md
+            Characters: Personajes
+            Special Thanks: Agradecimientos Especiales
+            Updates: Actualizaciones
 
 extra_css:
   - stylesheets/extra.css

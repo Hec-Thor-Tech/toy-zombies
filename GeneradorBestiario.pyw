@@ -5,15 +5,16 @@ import re
 
 entidades_cargadas = [] 
 
-# --- FUNCIONES DE ENRUTAMIENTO BILINGÜE ---
+# --- FUNCIONES DE ENRUTAMIENTO BILINGÜE INVERTIDO ---
 def get_ruta_bestiario():
-    if idioma_actual.get() == "es":
-        return os.path.join("docs", "bestiario.md")
+    if idioma_actual.get() == "en":
+        return os.path.join("docs", "bestiario.md") # El inglés ahora es la raíz
     else:
-        return os.path.join("docs", "en", "bestiario.md")
+        return os.path.join("docs", "es", "bestiario.md") # El español ahora es la subcarpeta
 
 def get_img_prefix():
-    return "../img/" if idioma_actual.get() == "es" else "../../img/"
+    # Inglés usa ../img/ | Español usa ../../img/
+    return "../img/" if idioma_actual.get() == "en" else "../../img/"
 
 def get_labels():
     if idioma_actual.get() == "es":
@@ -46,19 +47,15 @@ def extraer_datos_bestiario():
     for bloque in bloques:
         datos = {}
         
-        # Extraer Nombre
         nombre_match = re.search(r'alt="(.*?)"', bloque)
         datos['nombre'] = nombre_match.group(1) if nombre_match else "Sin Nombre"
         
-        # Extraer Imagen (soporta dinámicamente ../img/ y ../../img/)
         img_match = re.search(r'src="\.\./(?:\.\./)?img\/(.*?)"', bloque)
         datos['imagen'] = img_match.group(1) if img_match else ""
 
-        # Extraer Información del juego
         info_match = re.search(r'<img[^>]*class="cyber-img">\s*(.*?)\s*</div>\s*<div class="cyber-data-panel">', bloque, re.DOTALL)
         datos['info'] = info_match.group(1).strip() if info_match else ""
 
-        # Extraer campos bilingües
         def extraer_campo(label_es, label_en):
             match = re.search(f'<b>(?:{label_es}|{label_en}):</b>\\s*(.*?)</p>', bloque)
             return match.group(1).replace('<br>', ' ').strip() if match else ""
@@ -118,7 +115,6 @@ def guardar_como_nueva_entidad():
     if not nombre or not imagen: return messagebox.showwarning("Faltan datos", "Falta nombre o imagen.")
     try:
         ruta = get_ruta_bestiario()
-        # Crear directorio /en/ si no existe por alguna razón
         os.makedirs(os.path.dirname(ruta), exist_ok=True)
         with open(ruta, "a", encoding="utf-8") as file:
             file.write(generar_html_cyberpunk(nombre, entry_especie.get(), entry_habilidades.get(), entry_debilidades.get(), imagen, entry_info.get()))
@@ -146,12 +142,12 @@ def guardar_cambios_entidad():
 
 # --- INTERFAZ GRÁFICA ---
 root = tk.Tk()
-root.title("Terminal Toy Zombies v5.0 (Bilingüe)")
+root.title("Terminal Toy Zombies v5.1 (Inglés Default)")
 root.geometry("850x650")
 root.configure(bg="#050505")
 
-# Variable global para el idioma
-idioma_actual = tk.StringVar(value="es")
+# ¡AQUÍ ESTÁ EL CAMBIO! Ahora arranca en inglés ('en') por defecto.
+idioma_actual = tk.StringVar(value="en")
 
 frame_main = tk.Frame(root, bg="#050505")
 frame_main.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
@@ -160,15 +156,14 @@ frame_lista.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 20))
 
 tk.Label(frame_lista, text="ENTIDADES", font=("Consolas", 14, "bold"), bg="#050505", fg="#00f0ff").pack(pady=(0, 10))
 
-# --- NUEVO: SELECTOR DE IDIOMA ---
 def al_cambiar_idioma():
     limpiar_campos()
     cargar_lista_entidades()
 
 frame_idioma = tk.Frame(frame_lista, bg="#050505")
 frame_idioma.pack(fill=tk.X, pady=(0, 10))
-tk.Radiobutton(frame_idioma, text="ESPAÑOL", variable=idioma_actual, value="es", bg="#050505", fg="#ff003c", selectcolor="#111", command=al_cambiar_idioma, font=("Consolas", 10, "bold")).pack(side=tk.LEFT, expand=True)
 tk.Radiobutton(frame_idioma, text="ENGLISH", variable=idioma_actual, value="en", bg="#050505", fg="#00f0ff", selectcolor="#111", command=al_cambiar_idioma, font=("Consolas", 10, "bold")).pack(side=tk.LEFT, expand=True)
+tk.Radiobutton(frame_idioma, text="ESPAÑOL", variable=idioma_actual, value="es", bg="#050505", fg="#ff003c", selectcolor="#111", command=al_cambiar_idioma, font=("Consolas", 10, "bold")).pack(side=tk.LEFT, expand=True)
 
 listbox_entidades = tk.Listbox(frame_lista, font=("Consolas", 10), bg="#0a0a0f", fg="#00f0ff", selectbackground="#ff003c", selectforeground="white", relief="solid", bd=1, exportselection=False)
 listbox_entidades.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
