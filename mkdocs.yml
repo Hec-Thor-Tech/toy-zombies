@@ -1,5 +1,7 @@
 site_name: Toy Zombies
 site_description: Página Oficial de Toy Zombies
+# 1. AGREGA ESTA LÍNEA (Reemplaza con el enlace real de tu GitHub):
+site_url: https://hec-thor-tech.github.io/toy-zombies-wiki/
 
 theme:
   name: material
@@ -7,17 +9,14 @@ theme:
   language: es
   logo: img/logo.webp
   favicon: img/icono.webp
-  # Esta línea obliga a todos los dispositivos a usar letra de Terminal (Máquina de escribir)
   font:
     text: Roboto Mono
     code: Roboto Mono
-  # Configuración de colores (Tema oscuro por defecto)
   palette:
     scheme: slate
     primary: black
     accent: red
 
-# Barra de navegación (Menú superior/lateral)
 nav:
   - Inicio: index.md
   - Sinópsis: lore.md
@@ -31,12 +30,13 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
-# Configuración extra para agregar el selector de idiomas en la cabecera
 extra:
   alternate:
     - name: Español
-      link: /
+      # 2. AGREGA UN PUNTITO AQUÍ:
+      link: ./
       lang: es
     - name: English
-      link: /en/
+      # 3. AGREGA UN PUNTITO AQUÍ:
+      link: ./en/
       lang: en
