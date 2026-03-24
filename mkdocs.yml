@@ -1,6 +1,5 @@
 site_name: Toy Zombies
 site_description: Página Oficial de Toy Zombies
-# 1. AGREGA ESTA LÍNEA (Reemplaza con el enlace real de tu GitHub):
 site_url: https://hec-thor-tech.github.io/toy-zombies-wiki/
 
 theme:
@@ -17,6 +16,29 @@ theme:
     primary: black
     accent: red
 
+# 1. INYECTAR ESTE MÓDULO DE PLUGINS:
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build_step: setup
+        - locale: en
+          name: English
+          build_step: setup
+          nav_translations:
+            Inicio: Home
+            Sinópsis: Synopsis
+            Toy Zombies: Toy Zombies
+            Mecánicas: Mechanics
+            AniMall's Shopping: AniMall's Shopping
+            Personajes: Characters
+            Agradecimientos Especiales: Special Thanks
+            Actualizaciones: Updates
+
 nav:
   - Inicio: index.md
   - Sinópsis: lore.md
@@ -29,14 +51,3 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
-
-extra:
-  alternate:
-    - name: Español
-      # 2. AGREGA UN PUNTITO AQUÍ:
-      link: ./
-      lang: es
-    - name: English
-      # 3. AGREGA UN PUNTITO AQUÍ:
-      link: ./en/
-      lang: en
