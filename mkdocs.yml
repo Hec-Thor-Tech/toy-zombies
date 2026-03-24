@@ -30,3 +30,15 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
+
+# Configuración extra para agregar el selector de idiomas en la cabecera
+extra:
+  alternate:
+    # Este es el botón para Español
+    - name: Español
+      link: /
+      lang: es
+    # Este es el botón para Inglés
+    - name: English
+      link: /en/
+      lang: en
