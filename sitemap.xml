@@ -1,67 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/bestiario/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/bestiario/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/bestiario/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/bestiario/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/gracias/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/gracias/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/gracias/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/gracias/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/lore/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/lore/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/lore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/lore/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/mapas/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/mapas/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/mapas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/mapas/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/mecanicas/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/mecanicas/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/mecanicas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/mecanicas/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/personajes/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/personajes/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/personajes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/personajes/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/updates/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/updates/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/updates/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/updates/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/bestiario/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/bestiario/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/bestiario/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/bestiario/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/gracias/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/gracias/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/gracias/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/gracias/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/lore/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/lore/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/lore/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/lore/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/mapas/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/mapas/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/mapas/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/mapas/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/mecanicas/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/mecanicas/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/mecanicas/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/mecanicas/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/personajes/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/personajes/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/personajes/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/personajes/"/>
     </url>
     <url>
-         <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/updates/</loc>
-         <lastmod>2026-03-24</lastmod>
+        <loc>https://hec-thor-tech.github.io/toy-zombies-wiki/en/updates/</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hec-thor-tech.github.io/toy-zombies-wiki/en/updates/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://hec-thor-tech.github.io/toy-zombies-wiki/updates/"/>
     </url>
 </urlset>
