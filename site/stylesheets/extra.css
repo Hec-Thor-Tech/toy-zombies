@@ -143,7 +143,7 @@ body::after {
   font-size: 0 !important; 
 }
 
-/* 2. Inyectamos nuestro nuevo título temático */
+/* 2. Inyectamos nuestro nuevo título temático (Por defecto en Español) */
 .md-nav--primary > .md-nav__title::after {
   content: "CONTENIDOS:"; 
   font-size: 0.7rem !important; 
@@ -157,7 +157,12 @@ body::after {
   margin-top: 5px;
 }
 
-/* 3. Aseguramos que si hay un logo a la izquierda, no desaparezca por el tamaño 0 */
+/* 3. ¡NUEVO! Interruptor bilingüe: cambia a inglés si detecta el idioma */
+html[lang="en"] .md-nav--primary > .md-nav__title::after {
+  content: "CONTENTS:";
+}
+
+/* 4. Aseguramos que si hay un logo a la izquierda, no desaparezca por el tamaño 0 */
 .md-nav--primary > .md-nav__title .md-logo {
   font-size: 1rem !important;
   margin-right: 10px;
