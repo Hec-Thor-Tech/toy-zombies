@@ -5,7 +5,7 @@ site_url: https://hec-thor-tech.github.io/toy-zombies-wiki/
 theme:
   name: material
   custom_dir: overrides
-  language: es
+  language: en
   logo: img/logo.webp
   favicon: img/icono.webp
   font:
