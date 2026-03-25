@@ -42,8 +42,6 @@ AND TO ALL THE CREATORS WHO UPLOADED VIDEOS OF THE GAME
 
 - [GUMBALL GAMING](https://www.youtube.com/@gumballcrack27)
 
-- [HYBRIDDH](https://www.youtube.com/@hybriddh)
-
 - [JAER_EU](https://www.youtube.com/@Jaer_eu)
 
 - [JEHX SIN CONTROL](https://www.youtube.com/@JehxSinControl)
