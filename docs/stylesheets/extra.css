@@ -1,86 +1,156 @@
+/* =================================================== */
+/* IMPORTACIÓN DE FUENTES DE TOY ZOMBIES (GOOGLE FONTS)*/
+/* =================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=VT323&display=swap');
+
+/* =================================================== */
+/* CONFIGURACIÓN GLOBAL DEL CUERPO (ESTILO CRT)        */
+/* =================================================== */
 body {
+  /* Fondo Negro CRT */
   background-color: #050505 !important;
+  
+  /* Capas de Fondo: Scanlines, Ruido de Color y Imagen de Fondo */
   background-image: 
+    /* 1. Scanlines horizontales oscuras */
     linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    /* 2. Ligera distorsión de color estática (RGB split) */
     linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)),
+    /* 3. Tinte oscuro general */
     linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0.7)),
+    /* 4. Imagen de fondo principal (Asegúrate de que la ruta sea correcta) */
     url('../img/fondo1.webp') !important;
+  
+  /* Ajustes de tamaño y repetición */
   background-size: 100% 4px, 3px 100%, cover, cover !important;
   background-attachment: fixed !important; 
   background-position: center !important;
   background-repeat: no-repeat !important;
-  font-family: "Consolas", "Courier New", monospace !important;
+
+  /* ¡NUEVA FUENTE GLOBAL! - Estilo Pixelado Terminal */
+  font-family: 'VT323', monospace !important;
   color: #e0e0e0 !important;
+  
+  /* Aumentamos ligeramente el tamaño base para VT323 */
+  font-size: 1.1rem !important; 
 }
+
+/* =================================================== */
+/* ESTILOS DE CONTENIDO PRINCIPAL (MKDOCS)            */
+/* =================================================== */
 
 .md-content {
   background: transparent !important;
-  font-family: "Consolas", "Courier New", monospace !important;
+  /* Aseguramos que el texto del contenido use la fuente pixelada */
+  font-family: 'VT323', monospace !important;
   color: #e0e0e0 !important;
 }
 
+/* Cabecera superior */
 .md-header {
   background-color: #0a0a0f !important;
   border-bottom: 2px solid #ff003c;
 }
 
+/* Texto en negrita (Bold) - Usamos el Rojo Toy Zombies */
 .md-content b, 
 .md-content strong {
   color: #ff003c !important;
-  font-weight: normal;
+  font-weight: normal; /* Desactivamos el bold negrito para que se vea el color puro */
   text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
 }
 
+/* =================================================== */
+/* TÍTULOS (H1, H2, H3) - ESTILO TERROR TOY ZOMBIES    */
+/* =================================================== */
+
 .md-content h1, .md-content h2, .md-content h3 {
+  /* Rojo Intenso con Brillo */
   color: #ff003c !important; 
+  
+  /* ¡NUEVA FUENTE DE TÍTULO! - Estilo Terror Imperfecto */
+  font-family: 'Creepster', cursive !important;
+  
   text-transform: uppercase;
   letter-spacing: 2px; 
-  text-shadow: 0 0 5px #ff003c;
+  
+  /* Efecto de resplandor (glow) reforzado como en el juego */
+  text-shadow: 
+    0 0 10px #ff003c,
+    0 0 15px rgba(255, 0, 0, 0.5);
+  
+  /* Línea divisoria discontinua */
   border-bottom: 1px dashed #ff003c; 
   padding-bottom: 10px; 
 }
 
+/* =================================================== */
+/* COMPONENTES CIBERPUNK PERSONALIZADOS (.md)         */
+/* =================================================== */
+
+/* Contenedor Flex para Fichas (Bestiario, Personajes) */
 .cyber-container {
   display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;
 }
 
+/* Panel de Imagen (Estilo Cian) */
 .cyber-img-panel {
   flex: 1; min-width: 300px; background: rgba(0, 20, 40, 0.6);
   padding: 15px; border: 1px solid #00f0ff;
   box-shadow: 0 0 10px rgba(0, 240, 255, 0.2) inset;
+  /* Corte de esquina inferior derecha */
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%);
   position: relative;
 }
 
+/* Imagen dentro del panel */
 .cyber-img {
   width: 100%; margin-top: 15px;
+  /* Efecto de contraste y brillo cian */
   filter: contrast(1.1) drop-shadow(0 0 5px rgba(0, 240, 255, 0.3));
 }
 
+/* Panel de Datos (Estilo Rojo) */
 .cyber-data-panel {
   flex: 1; min-width: 300px; background: rgba(40, 5, 5, 0.6);
   padding: 20px; border: 1px solid #ff003c;
   box-shadow: 0 0 15px rgba(255, 0, 60, 0.2) inset;
+  /* Corte de esquina superior derecha */
   clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 0 100%);
   position: relative;
 }
 
+/* Título dentro del panel de datos */
 .cyber-title {
-  color: #ff003c !important; text-transform: uppercase;
-  letter-spacing: 2px; text-shadow: 0 0 5px #ff003c;
+  color: #ff003c !important; 
+  
+  /* ¡NUEVA FUENTE DE TÍTULO! - Estilo Terror Imperfecto */
+  font-family: 'Creepster', cursive !important;
+  
+  text-transform: uppercase;
+  letter-spacing: 2px; text-shadow: 0 0 8px #ff003c;
   border-bottom: 1px dashed #ff003c; padding-bottom: 10px; margin-top: 0 !important;
 }
 
+/* Texto dentro del panel de datos */
 .cyber-text {
-  color: #e0e0e0; font-size: 0.95em; margin-bottom: 12px; line-height: 1.5;
+  color: #e0e0e0; font-size: 1rem; margin-bottom: 12px; line-height: 1.5;
+  /* Aseguramos fuente pixelada */
+  font-family: 'VT323', monospace !important;
 }
 
+/* Negrita dentro del panel de datos */
 .cyber-text b, .cyber-text strong {
   color: #ff003c !important; 
   text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
 }
 
+/* Línea divisoria temática */
 .cyber-hr { border-color: #ff003c; opacity: 0.3; margin: 40px 0; }
+
+/* =================================================== */
+/* EFECTO DE ESTÁTICA CRT (NOISE ANIMATION)            */
+/* =================================================== */
 
 body::after {
   content: "";
@@ -89,13 +159,15 @@ body::after {
   left: -50%;
   width: 200%;
   height: 200%;
+  /* Imagen de ruido SVG */
   background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)" opacity="1"/%3E%3C/svg%3E');
-  opacity: 0.04; 
-  pointer-events: none; 
-  z-index: 9999; 
+  opacity: 0.04; /* Ruido muy sutil */
+  pointer-events: none; /* No interfiere con los clics */
+  z-index: 9999; /* Por encima de todo */
   animation: static-flicker 0.2s infinite steps(2);
 }
 
+/* Animación de parpadeo de estática */
 @keyframes static-flicker {
   0% { transform: translate(0, 0); }
   20% { transform: translate(-2%, 2%); }
@@ -105,31 +177,54 @@ body::after {
   100% { transform: translate(0, 0); }
 }
 
+/* =================================================== */
+/* AJUSTES DE INTERFAZ DE MKDOCS MATERIAL              */
+/* =================================================== */
+
+/* Ocultar el título duplicado en la cabecera móvil */
 .md-header__title .md-header__topic:first-child {
   display: none !important;
 }
 
+/* =================================================== */
+/* RENOMBRAR EL TÍTULO DEL PANEL LATERAL (MENÚ)        */
+/* =================================================== */
+
+/* 1. Ocultamos el "Toy Zombies" original reduciendo su tamaño a 0 */
 .md-nav--primary > .md-nav__title {
   font-size: 0 !important; 
 }
 
+/* 2. Inyectamos nuestro nuevo título temático (Por defecto en Español) */
 .md-nav--primary > .md-nav__title::after {
   content: "CONTENIDOS:"; 
-  font-size: 0.7rem !important; 
+  
+  /* Usamos fuente pixelada para el menú, un poco más pequeña */
+  font-family: 'VT323', monospace !important;
+  font-size: 1rem !important; 
+  
   color: rgba(255, 255, 255, 0.5) !important; 
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
-  text-shadow: none; 
+  text-shadow: none; /* Quitamos el brillo cian para hacerlo más sobrio */
   display: inline-block;
   margin-top: 5px;
 }
 
+/* 3. Interruptor bilingüe: cambia a inglés si detecta el idioma */
 html[lang="en"] .md-nav--primary > .md-nav__title::after {
   content: "CONTENTS:";
 }
 
+/* 4. Aseguramos que si hay un logo a la izquierda, no desaparezca por el tamaño 0 */
 .md-nav--primary > .md-nav__title .md-logo {
   font-size: 1rem !important;
   margin-right: 10px;
+}
+
+/* Asegurar que los enlaces del menú lateral también usen la fuente pixelada */
+.md-nav__link {
+    font-family: 'VT323', monospace !important;
+    font-size: 1rem !important;
 }
