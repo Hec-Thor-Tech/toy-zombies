@@ -1,47 +1,36 @@
-/* CONVERTIR LA PÁGINA EN UNA TERMINAL CRT CON FONDO ESTÁTICO */
 body {
   background-color: #050505 !important;
-  /* Capas de fondo separadas por comas (de arriba hacia abajo) */
   background-image: 
-    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), /* 1. Scanlines Horizontales */
-    linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)), /* 2. Scanlines Verticales */
-    linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0.7)), /* 3. Filtro oscuro para poder leer los textos */
-    url('../img/fondo1.webp') !important; /* 4. Tu imagen de fondo en la capa más profunda */
-    
-  /* Ajuste de tamaños para cada capa */
+    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)),
+    linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0.7)),
+    url('../img/fondo1.webp') !important;
   background-size: 100% 4px, 3px 100%, cover, cover !important;
-  
-  /* ESTO ES LO QUE LO HACE ESTÁTICO AL HACER SCROLL */
   background-attachment: fixed !important; 
   background-position: center !important;
   background-repeat: no-repeat !important;
-  
   font-family: "Consolas", "Courier New", monospace !important;
   color: #e0e0e0 !important;
 }
 
-/* Dejamos el panel principal transparente para que el fondo general se luzca */
 .md-content {
   background: transparent !important;
   font-family: "Consolas", "Courier New", monospace !important;
   color: #e0e0e0 !important;
 }
 
-/* BARRA SUPERIOR E INFERIOR */
 .md-header {
   background-color: #0a0a0f !important;
   border-bottom: 2px solid #ff003c;
 }
 
-/* EFECTO ROJO ALERTA PARA LAS NEGRITAS EN MARKDOWN */
 .md-content b, 
 .md-content strong {
   color: #ff003c !important;
-  font-weight: normal; /* Mantiene el mismo grosor que el texto base, como en tu imagen */
+  font-weight: normal;
   text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
 }
 
-/* TÍTULOS EN MARKDOWN */
 .md-content h1, .md-content h2, .md-content h3 {
   color: #ff003c !important; 
   text-transform: uppercase;
@@ -51,14 +40,10 @@ body {
   padding-bottom: 10px; 
 }
 
-/* --------------------------------------------------- */
-/* PANELES DE ENTIDAD (Si decides usarlos con HTML)    */
-/* --------------------------------------------------- */
 .cyber-container {
   display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;
 }
 
-/* Panel de la Imagen (Cian) */
 .cyber-img-panel {
   flex: 1; min-width: 300px; background: rgba(0, 20, 40, 0.6);
   padding: 15px; border: 1px solid #00f0ff;
@@ -72,7 +57,6 @@ body {
   filter: contrast(1.1) drop-shadow(0 0 5px rgba(0, 240, 255, 0.3));
 }
 
-/* Panel de Datos (Rojo Alerta) */
 .cyber-data-panel {
   flex: 1; min-width: 300px; background: rgba(40, 5, 5, 0.6);
   padding: 20px; border: 1px solid #ff003c;
@@ -98,10 +82,6 @@ body {
 
 .cyber-hr { border-color: #ff003c; opacity: 0.3; margin: 40px 0; }
 
-/* =================================================== */
-/* EFECTO DE RUIDO DE ESTÁTICA (STATIC NOISE)          */
-/* =================================================== */
-
 body::after {
   content: "";
   position: fixed;
@@ -109,15 +89,13 @@ body::after {
   left: -50%;
   width: 200%;
   height: 200%;
-  /* Genera un ruido fractal usando un SVG incrustado */
   background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)" opacity="1"/%3E%3C/svg%3E');
-  opacity: 0.04; /* Mantén este valor bajo (0.03 - 0.06) para que sea sutil y no canse la vista */
-  pointer-events: none; /* Crucial: Evita que el ruido bloquee los clics en la página */
-  z-index: 9999; /* Asegura que el ruido esté por encima de todo */
+  opacity: 0.04; 
+  pointer-events: none; 
+  z-index: 9999; 
   animation: static-flicker 0.2s infinite steps(2);
 }
 
-/* Animación errática para simular el fallo de señal */
 @keyframes static-flicker {
   0% { transform: translate(0, 0); }
   20% { transform: translate(-2%, 2%); }
@@ -127,42 +105,30 @@ body::after {
   100% { transform: translate(0, 0); }
 }
 
-/* =================================================== */
-/* OCULTAR TEXTO DUPLICADO DEL LOGO EN LA BARRA        */
-/* =================================================== */
 .md-header__title .md-header__topic:first-child {
   display: none !important;
 }
 
-/* =================================================== */
-/* RENOMBRAR EL TÍTULO DEL PANEL LATERAL (MENÚ)        */
-/* =================================================== */
-
-/* 1. Ocultamos el "Toy Zombies" original reduciendo su tamaño a 0 */
 .md-nav--primary > .md-nav__title {
   font-size: 0 !important; 
 }
 
-/* 2. Inyectamos nuestro nuevo título temático (Por defecto en Español) */
 .md-nav--primary > .md-nav__title::after {
   content: "CONTENIDOS:"; 
   font-size: 0.7rem !important; 
-  /* Usamos un blanco/gris con 50% de transparencia */
   color: rgba(255, 255, 255, 0.5) !important; 
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
-  text-shadow: none; /* Quitamos el brillo cian para hacerlo más sobrio */
+  text-shadow: none; 
   display: inline-block;
   margin-top: 5px;
 }
 
-/* 3. ¡NUEVO! Interruptor bilingüe: cambia a inglés si detecta el idioma */
 html[lang="en"] .md-nav--primary > .md-nav__title::after {
   content: "CONTENTS:";
 }
 
-/* 4. Aseguramos que si hay un logo a la izquierda, no desaparezca por el tamaño 0 */
 .md-nav--primary > .md-nav__title .md-logo {
   font-size: 1rem !important;
   margin-right: 10px;
