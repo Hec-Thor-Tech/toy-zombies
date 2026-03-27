@@ -24,6 +24,7 @@ nav:
   - Mechanics: mecanicas.md
   - AniMall's Shopping: mapas.md
   - Characters: personajes.md
+  - Press-Kit: presskit.md
   - Special Thanks: gracias.md
   - Updates: updates.md
 
@@ -44,6 +45,7 @@ plugins:
             Mechanics: Mecánicas
             AniMall's Shopping: AniMall's Shopping
             Characters: Personajes
+            Press-Kit: Press-Kit
             Special Thanks: Agradecimientos Especiales
             Updates: Actualizaciones
 
