@@ -2,112 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://www.toy-zombies.com/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/bestiario/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/bestiario/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/bestiario/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/gracias/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/gracias/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/gracias/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/lore/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/lore/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/lore/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/mapas/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/mapas/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/mapas/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/mecanicas/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/mecanicas/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/mecanicas/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/personajes/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/personajes/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/personajes/"/>
     </url>
     <url>
+        <loc>https://www.toy-zombies.com/presskit/</loc>
+        <lastmod>2026-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/presskit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/presskit/"/>
+    </url>
+    <url>
         <loc>https://www.toy-zombies.com/updates/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/updates/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/updates/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/es/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/es/bestiario/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/bestiario/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/bestiario/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/es/gracias/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/gracias/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/gracias/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/es/lore/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/lore/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/lore/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/es/mapas/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/mapas/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/mapas/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/es/mecanicas/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/mecanicas/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/mecanicas/"/>
     </url>
     <url>
         <loc>https://www.toy-zombies.com/es/personajes/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/personajes/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/personajes/"/>
     </url>
     <url>
+        <loc>https://www.toy-zombies.com/es/presskit/</loc>
+        <lastmod>2026-03-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/presskit/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/presskit/"/>
+    </url>
+    <url>
         <loc>https://www.toy-zombies.com/es/updates/</loc>
-        <lastmod>2026-03-26</lastmod>
+        <lastmod>2026-03-27</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/updates/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/updates/"/>
