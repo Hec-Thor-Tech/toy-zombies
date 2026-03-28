@@ -140,10 +140,4 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/updates/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/updates/"/>
     </url>
-    <url>
-        <loc>https://www.toy-zombies.com/es/patrocinadores/</loc>
-        <lastmod>2026-03-28</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/patrocinadores/"/>
-    </url>
 </urlset>
