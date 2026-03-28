@@ -43,6 +43,13 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/mecanicas/"/>
     </url>
     <url>
+        <loc>https://www.toy-zombies.com/patrons/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/patrons/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/patrons/"/>
+    </url>
+    <url>
         <loc>https://www.toy-zombies.com/personajes/</loc>
         <lastmod>2026-03-28</lastmod>
         <changefreq>daily</changefreq>
@@ -106,6 +113,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/mecanicas/"/>
     </url>
     <url>
+        <loc>https://www.toy-zombies.com/es/patrons/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/patrons/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/patrons/"/>
+    </url>
+    <url>
         <loc>https://www.toy-zombies.com/es/personajes/</loc>
         <lastmod>2026-03-28</lastmod>
         <changefreq>daily</changefreq>
@@ -125,5 +139,11 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/updates/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://www.toy-zombies.com/updates/"/>
+    </url>
+    <url>
+        <loc>https://www.toy-zombies.com/es/patrocinadores/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.toy-zombies.com/es/patrocinadores/"/>
     </url>
 </urlset>
